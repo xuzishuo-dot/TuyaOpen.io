@@ -1,0 +1,8 @@
+#!/bin/bash
+docker rm -f nginx &&
+docker run --name nginx \
+    -v /data/zh:/usr/share/nginx/html/zh \
+    -v /data/en:/usr/share/nginx/html/en \
+    -v /data/server-configs-nginx:/etc/nginx \
+    --net=host \
+    -d nginx

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Get the directory where the script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Target directory
+TARGET_DIR="/data/server-configs-nginx/conf.d/"
+
+# Check if target directory exists
+if [ ! -d "$TARGET_DIR" ]; then
+    echo "Creating target directory: $TARGET_DIR"
+    sudo mkdir -p "$TARGET_DIR"
+fi
+
+# Copy .conf files with preservation of permissions
+echo "Copying configuration files..."
+sudo cp -v --preserve=mode "$SCRIPT_DIR"/*.conf "$TARGET_DIR"
+
+# Verify operation status
+if [ $? -eq 0 ]; then
+    echo "Success: All .conf files copied to $TARGET_DIR"
+else
+    echo "Error: Failed to copy files" >&2
+    exit 1
+fi
