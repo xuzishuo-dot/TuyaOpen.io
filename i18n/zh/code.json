@@ -454,43 +454,51 @@
     "message": "TuyaOpen 的用户"
   },
   "home.features.desc": {
-    "message": ""
+    "message": "灵活模块化的软硬件开发"
   },
   "home.features.title": {
-    "message": "開源生態"
+    "message": "好玩",
+    "description": "The title for the Fun feature"
   },
   "home.features.desc0": {
-    "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "支持Tuya AI，可连接至Tuya云、Tuya APP，完美融合Tuya生态能力。",
+    "description": "The description for the Fun feature"
   },
   "home.features.easytouse": {
-    "message": "易于使用"
+    "message": "开源生态",
+    "description": "The title for the Open Source Ecosystem feature"
   },
   "home.features.easytouse.desc": {
-    "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "支持第三方生态如Arduino、PlatformIO。支持C/C++，Python，Lua开发语言。除涂鸦旗舰开发板外，还支持涂鸦T系列，博通、乐鑫、亮牛等诸多开发平台。",
+    "description": "The description for the Open Source Ecosystem feature"
   },
   "home.features.easytouse.list.1": {
-    "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
   },
   "home.features.easytouse.list.2": {
     "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
   },
   "home.features.flexiblescope": {
-    "message": "灵活的范围"
+    "message": "专业",
+    "description": "The title for the Professional feature"
   },
   "home.features.flexiblescope.desc.1": {
-    "message": "home.features.flexiblescope.desc.1 TuyaOpen 提供了 随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "商业级代码开源，提供丰富的文档支持，经历全球亿级设备和百万级用户的持续验证。",
+    "description": "The description for the Professional feature"
   },
   "home.features.flexiblescope.desc.2": {
     "message": "home.features.flexiblescope.desc.2 随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
   },
   "home.features.securityfirst": {
-    "message": "安全至上"
+    "message": "安全",
+    "description": "The title for the Security First feature"
   },
   "home.features.securityfirst.desc": {
-    "message": "home.features.securityfirst.desc 随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "集成涂鸦多层安全防护机制，保障设备通信与数据隐私；依托涂鸦全球混合云架构，实现产品合规部署和全球化落地。",
+    "description": "The description for the Security First feature"
   },
   "home.failuretypes.desc": {
-    "message": "home.failuretypes.desc 随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+    "message": "TuyaOpen支持行业内主流的开源软硬件生态，开发者可以轻松将项目移植和部署到任意芯片或开发板上。这使得开发者能够快速体验AI技术带来的创新，并加速产品开发周期。"
   },
   "home.exploremore": {
     "message": "探索更多"
@@ -516,8 +524,11 @@
   "home.experimental": {
     "message": "实验性功能"
   },
-  "home.chaosd.desc": {
-    "message": "home.chaosd.desc 随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
+  "home.tuya.ai.desc":{
+    "message": "TuyaOpen集成了端侧AI推理引擎，支持涂鸦云智能体中枢，支持端云融合的多模态AI能力。开发者可以无缝调用国内合规的大模型(如DeepSeek、千问、豆包)或灵活对接全球顶尖的AI服务(如ChatGPT、Claude、Gemini)。通过多样化的工具生态，开发者能够实现文字和语音对话、图片生成、视频生成等多种AI功能。"
+  },
+  "home.t5.hardware.desc":{
+    "message": "涂鸦T5 芯片/模组是一款高性能嵌入式Wi-Fi 6 + 蓝牙5.4双模通信模组，内嵌ARMv8-M Star (M33F) 处理器，主频高达 480MHz，专为智能音视频及人机交互场景设计。"
   },
   "home.learnmore": {
     "message": "了解更多 →"

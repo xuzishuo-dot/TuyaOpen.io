@@ -5,7 +5,7 @@ import { clsx } from 'clsx'
 
 import Card from './Card'
 function Feature({ imgUrl, title, description, className, imageWidth }) {
-  const isMainImg = imgUrl === 'img/features/Team work-bro.svg'
+  const isMainImg = imgUrl === 'img/features/flexible-scope.svg'
 
   return (
     <Card className={className}>
@@ -40,8 +40,8 @@ export default function Features() {
   return (
     <>
       <Feature
-        imgUrl="img/features/Team work-bro.svg"
-        title={<Translate id="home.features.title">Design for IoT Makers</Translate>}
+        imgUrl="img/features/flexible-scope.svg"
+        title={<Translate id="home.features.title">Fun</Translate>}
         description={
           <p>
             <Translate
@@ -58,7 +58,7 @@ export default function Features() {
               }}
             >
               {
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utdo eiusmod tempor incididunt utdo eiusmod tempor incididunt ut'
+                'Supports Tuya AI, can connect to Tuya Cloud and Tuya APP, perfectly integrating Tuya ecosystem capabilities.'
               }
             </Translate>
           </p>
@@ -66,8 +66,8 @@ export default function Features() {
         className="lg:tw-col-span-2"
       />
       <Feature
-        imgUrl="img/features/easy-to-use.svg"
-        title={<Translate id="home.features.easytouse">Easy to Use</Translate>}
+        imgUrl="img/features/Team work-bro.svg"
+        title={<Translate id="home.features.easytouse">Open Source Ecosystem</Translate>}
         description={
           <>
             <p>
@@ -82,11 +82,11 @@ export default function Features() {
                 }}
               >
                 {
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utdo eiusmod tempor incididunt utdo eiusmod tempor incididunt ut{externallink}.'
+                  'Supports third-party ecosystems like Arduino and PlatformIO. Supports C/C++, Python, and Lua development languages. In addition to Tuya\'s flagship development boards, it also supports Tuya T-series, Broadcom, Espressif, Liangniu, and many other development platforms.'
                 }
               </Translate>
             </p>
-            <ul>
+            {/* <ul>
               <li>
                 <Translate id="home.features.easytouse.list.1">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -97,24 +97,19 @@ export default function Features() {
                 Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.
                 </Translate>
               </li>
-            </ul>
+            </ul> */}
           </>
         }
         className="lg:tw-col-span-4"
       />
       <Feature
-        imgUrl="img/features/flexible-scope.svg"
-        title={<Translate id="home.features.flexiblescope">Flexible Scope</Translate>}
+        imgUrl="img/features/easy-to-use.svg"
+        title={<Translate id="home.features.flexiblescope">Professional</Translate>}
         description={
           <>
             <p>
               <Translate id="home.features.flexiblescope.desc.1">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.
-              </Translate>
-            </p>
-            <p>
-              <Translate id="home.features.flexiblescope.desc.2">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.
+              Commercial-grade open-source code with rich documentation support, continuously validated by billions of devices and millions of users worldwide.
               </Translate>
             </p>
           </>
@@ -127,7 +122,7 @@ export default function Features() {
         description={
           <p>
             <Translate id="home.features.securityfirst.desc">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.
+              Integrated with Tuya's multi-layer security protection mechanism, ensuring device communication and data privacy; leveraging Tuya's global hybrid cloud architecture for compliant product deployment and global implementation.
             </Translate>
           </p>
         }

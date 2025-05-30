@@ -7,6 +7,18 @@
     "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "教程",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
   "link.title.Acknowledgements": {
     "message": "致谢",
     "description": "The title of the footer links column with title=Acknowledgements in the footer"

@@ -28,7 +28,7 @@ const config = {
   trailingSlash: true,
 
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh',
     locales: ['en', 'zh'],
     localeConfigs: {
       en: {
@@ -90,15 +90,20 @@ const config = {
       },
       items: [
         { to: 'docs', label: 'Documentation' },
-        {
-          to: 'blog',
-          label: 'Blog',
-        },
-        {
-          to: '/hardware_pages',
-          label: 'Supported Hardware',
-          position: 'left',
-        },
+
+        // ======Blog========
+        // {
+        //   to: 'blog',
+        //   label: 'Blog',
+        // },
+
+        // ======Hardware List ========
+        // {
+        //   to: '/hardware_pages',
+        //   label: 'Supported Hardware',
+        //   position: 'left',
+        // },
+
         // TODO: huate: add the link to the community group
         // {
         //   href: 'https://github.com/tuya/TuyaOpen/discussions/',
@@ -136,34 +141,34 @@ const config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'X',
+        //       href: 'https://x.com/docusaurus',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/tuya/TuyaOpen',

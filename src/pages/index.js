@@ -142,7 +142,7 @@ function Home() {
                 )}
               </h2>
               <p className="lg:tw-text-lg tw-font-medium">
-                <Translate id="home.features.desc">Change this to SDK introduction and Pros List.</Translate>
+                <Translate id="home.features.desc">Endless Possibilities</Translate>
               </p>
             </div>
 
@@ -187,7 +187,7 @@ function Home() {
               alt="Chaos Category"
             />
 
-            <div className="tw-flex tw-justify-center tw-mt-12">
+            {/* <div className="tw-flex tw-justify-center tw-mt-12">
               <Link
                 to="https://github.com/tuya/TuyaOpen/blob/master/README.md"
                 className="tw-btn !tw-btn-primary tw-gap-2 hover:-tw-translate-y-[3px]"
@@ -195,77 +195,8 @@ function Home() {
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-primary-content" />
                 <Translate id="home.exploremore">Explore More</Translate>
               </Link>
-            </div>
+            </div> */}
             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">{/* <CodeGrid /> */}</div>
-          </div>
-        </div>
-
-        <div className="hero tw-relative">
-          <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
-            <img src="/img/home/curve-divider.svg" />
-          </div>
-          <div className="tw-container tw-mx-auto max-lg:tw-px-4">
-            <div className="tw-relative tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
-              <div className="tw-flex-1">
-                <div className="xl:tw-w-[90%]">
-                  <span className="tw-badge tw-badge-primary">
-                    <Translate id="home.experimental">Experimental</Translate>
-                  </span>
-
-                  {/* TODO: add translation. */}
-                  <h2 className="tw-text-4xl xl:tw-text-5xl">
-                    {/* Since the following texts are not simple strings, we can't use <Translate /> here. */}
-                    {i18n.currentLocale === 'en' && (
-                      <span>
-                        Alternative IDE that you familer with <span className={styles.heroTitle}> Arduino IDE</span>
-                      </span>
-                    )}
-                    {i18n.currentLocale === 'zh' && (
-                      <span>
-                        使用你熟悉的IDE <span className={styles.heroTitle}>TuyaOpen for Arduino</span>
-                      </span>
-                    )}
-                  </h2>
-                  <p className="lg:tw-text-lg tw-font-medium">
-                    <Translate id="home.workflows.desc">
-                      In addition to the C/C++ development environment, you can use the familiar Arduino IDE that you
-                      know and love. You'll still enjoy the simplicity of the TuyaOpen IoT Development Framework.
-                    </Translate>
-                  </p>
-                  <div className="tw-flex tw-gap-4 tw-mb-6">
-                    <Card>
-                      <h4 className="text-lg">
-                        <Translate id="home.workflows.arduino">Title 1</Translate>
-                      </h4>
-                      <p>
-                        <Translate id="home.workflows.arduino.desc">
-                          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing
-                          elit quisque faucibus.
-                        </Translate>
-                      </p>
-                    </Card>
-                    <Card>
-                      <h4 className="text-lg">
-                        <Translate id="home.workflows.arduinoide">Title 2</Translate>
-                      </h4>
-                      <p>
-                        <Translate id="home.workflows.arduinoide.desc">
-                          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing
-                          elit quisque faucibus.
-                        </Translate>
-                      </p>
-                    </Card>
-                  </div>
-                  <Link
-                    to="https://github.com/tuya/arduino-TuyaOpen"
-                    className="tw-btn !tw-btn-primary tw-gap-2 hover:-tw-translate-y-[3px]"
-                  >
-                    <Translate id="home.startcreating">Start Creating →</Translate>
-                  </Link>
-                </div>
-              </div>
-              <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} />
-            </div>
           </div>
         </div>
 
@@ -300,7 +231,7 @@ function Home() {
                 </h2>
                 <p className="lg:tw-text-lg tw-font-medium">
                   <Translate
-                    id="home.chaosd.desc"
+                    id="home.t5.hardware.desc"
                     values={{
                       link: (
                         <Link className="tw-underline dark:tw-no-underline" to="/docs/simulate-physical-machine-chaos">
@@ -310,7 +241,7 @@ function Home() {
                     }}
                   >
                     {
-                      'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
+                      'Tuya T5 chip/module is a high-performance embedded Wi-Fi 6 + Bluetooth 5.4 dual-mode communication module, embedded with ARMv8-M Star (M33F) processor, with a main frequency up to 480MHz, specially designed for smart audio-video applications.'
                     }
                   </Translate>
                 </p>
@@ -330,7 +261,7 @@ function Home() {
                   {/* Due to the below texts are not simple strings, so we can't use <Translate /> here. */}
                   {i18n.currentLocale === 'en' && (
                     <span>
-                      Meet <span className={styles.heroTitle}>Tuya T5 MCU</span>: Next Generation AI+IoT MCU
+                      Meet <span className={styles.heroTitle}>Tuya AI</span>: Powerful Multimodal AI Interaction Model
                     </span>
                   )}
                   {i18n.currentLocale === 'zh' && (
@@ -341,7 +272,7 @@ function Home() {
                 </h2>
                 <p className="lg:tw-text-lg tw-font-medium">
                   <Translate
-                    id="home.chaosd.desc"
+                    id="home.tuya.ai.desc"
                     values={{
                       link: (
                         <Link className="tw-underline dark:tw-no-underline" to="/docs/simulate-physical-machine-chaos">
@@ -351,7 +282,7 @@ function Home() {
                     }}
                   >
                     {
-                      'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
+                      'Tuya AI: Multimodal Edge-Cloud Intelligence with edge AI inference and cloud agent hub, enabling access to leading AI models (DeepSeek, ChatGPT, Claude, Gemini) and cross-modal functions including voice/text interaction and image/video generation for edge devices.'
                     }
                   </Translate>
                 </p>
