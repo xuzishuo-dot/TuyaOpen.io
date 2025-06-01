@@ -82,7 +82,7 @@ export default function Features() {
                 }}
               >
                 {
-                  'Supports third-party ecosystems like Arduino and PlatformIO. Supports C/C++, Python, and Lua development languages. In addition to Tuya\'s flagship development boards, it also supports Tuya T-series, Broadcom, Espressif, Liangniu, and many other development platforms.'
+                  'Supports third-party ecosystems like Arduino and PlatformIO. Supports C/C++, Python, and Lua development languages. In addition to Tuya\'s flagship development boards, it also supports Tuya T-series, BK, Espressif, Liangniu, and many other development platforms.'
                 }
               </Translate>
             </p>

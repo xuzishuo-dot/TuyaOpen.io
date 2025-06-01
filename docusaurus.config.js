@@ -75,11 +75,6 @@ const config = {
       respectPrefersColorScheme: true,
     },
     image: '/img/home/tuyaopen-logo-social-preview.png',
-    algolia: {
-      appId: '---replace-with-your-app-id---',
-      apiKey: '---replace-with-your-api-key---',
-      indexName: '----replace-with-your-index-name----',
-    },
     navbar: {
       hideOnScroll: true,
       title: 'TuyaOpen',
@@ -89,7 +84,8 @@ const config = {
         srcDark: 'img/home/tuyaopen-logo-simple-light.png',
       },
       items: [
-        { to: 'docs', label: 'Documentation' },
+        // { to: 'http://docs.tuyaopen.io/', label: 'Documentation' },
+        { to: 'docs/about-tuyaopen', label: 'Documentation' },
 
         // ======Blog========
         // {
@@ -211,16 +207,16 @@ const config = {
     './docusaurus-tailwind-v3',
     ['@gracefullight/docusaurus-plugin-microsoft-clarity', { projectId: 'lggqck9srz' }],
     './src/plugins/hardwarePagesGenerator',
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'hardware-content',
-        path: 'content/hardware',
-        routeBasePath: 'hardware-content',
-        include: ['*.mdx'],
-        sidebarPath: false,
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'hardware-content',
+    //     path: 'content/hardware',
+    //     routeBasePath: 'hardware-content',
+    //     include: ['*.md'],
+    //     sidebarPath: false,
+    //   },
+    // ],
   ],
 }
 
