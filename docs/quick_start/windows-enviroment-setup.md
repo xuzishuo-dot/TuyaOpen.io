@@ -89,7 +89,7 @@ exit
 :::tip Command Line Selection You can use any of the following command line tools:
 
 - PowerShell (recommended)
-- Windows Command Prompt (CMD)
+- Windows Command Prompt (CMD) :::
 
 :::warning Note Git Bash (Linux-like environment) is not compatible with the tos.py tool. Please use PowerShell or CMD. :::
 

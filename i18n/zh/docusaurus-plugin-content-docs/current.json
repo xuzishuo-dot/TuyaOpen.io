@@ -18,5 +18,25 @@
     "sidebar.docs.category.New Hardware Support": {
         "message": "添加新硬件",
         "description": "The label for category Other Tools in sidebar docs"
+    },
+    "sidebar.docs.category.Application Demo": {
+        "message": "应用示例",
+        "description": "The label for category Application Demo in sidebar docs"
+    },
+    "sidebar.docs.category.TLK APIs": {
+        "message": "TLK APIs",
+        "description": "The label for category TLK APIs in sidebar docs"
+    },
+    "sidebar.docs.category.OS APIs": {
+        "message": "OS API",
+        "description": "The label for category OS APIs in sidebar docs"
+    },
+    "sidebar.docs.category.Hardware Interfaces": {
+        "message": "硬件接口 API",
+        "description": "The label for category Hardware Interfaces in sidebar docs"
+    },
+    "sidebar.docs.category.Networking": {
+        "message": "网络 API",
+        "description": "The label for category Networking in sidebar docs"
     }
 }
