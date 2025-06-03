@@ -109,7 +109,22 @@ module.exports = {
       type: 'category',
       label: 'Contribute',
       collapsed: true,
-      items: ['contribute/contribute-guide', 'contribute/coding-style-guide'],
+      items: [
+        'contribute/contribute-guide',
+        'contribute/coding-style-guide',
+        {
+          type: 'category',
+          label: 'Docs Templates',
+          collapsed: true,
+          items: [
+            'contribute/template/concept_template',
+            'contribute/template/development_guide_template',
+            'contribute/template/faq_template',
+            'contribute/template/operation_guide-template',
+            'contribute/template/README-template',
+          ],
+        },
+      ],
     },
     // ------------------------------------------------------------------
   ],
