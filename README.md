@@ -1,11 +1,6 @@
 <!-- markdownlint-disable-file MD033 -->
 <!-- markdownlint-disable-file MD041 -->
-
-<p align="center">
-  <img src="logo.svg#gh-light-mode-only" width="512" alt="Chaos Mesh Logo" />
-  <img src="logo-white.svg#gh-dark-mode-only" width="512" alt="Chaos Mesh Logo" />
-</p>
-<h1 align="center">Website</h1>
+<h1 align="center">TuyaOpen Website</h1>
 <p align="center">
   Built using <a href="https://docusaurus.io/" target="_blank">Docusaurus 3</a>, a modern static website generator.
 </p>
@@ -32,8 +27,8 @@
 ## How to develop
 
 ```sh
-pnpm i # install deps
-pnpm start
+npm install # install deps
+npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -41,13 +36,13 @@ This command starts a local development server and opens up a browser window. Mo
 By default, the `start` command will only preview documents in English. If you want to preview documents in other languages, such as Chinese, then add `--locale` after the command:
 
 ```sh
-pnpm start --locale zh
+npm start --locale zh
 ```
 
 ## Build
 
 ```sh
-pnpm build
+npm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -57,7 +52,7 @@ This command generates static content into the `build` directory and can be serv
 ### Release a major or minor version
 
 ```sh
-pnpm docusaurus docs:version x.x.x
+npm docusaurus docs:version x.x.x
 ```
 
 The doc versions are split into two parts, one is the **latest (in `docs/`)** and the others are **versioned (in `versioned_docs/`)**. When releasing a new version, the current latest `docs/` will be copied into `versioned_docs/` (by running the command above).
@@ -141,5 +136,4 @@ Below are some specific points:
 You usually only need to modify the content in the `docs/` directory, but if some old versions also need to be updated, please update the related content in the `versioned_docs/` directory.
 
 ## License
-
 Distributed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
