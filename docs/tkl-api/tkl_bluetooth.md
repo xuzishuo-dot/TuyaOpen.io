@@ -1,4 +1,4 @@
-# BLUETOOTH
+# tkl_bluetooth | Bluetooth Driver
 
 # API Description
 

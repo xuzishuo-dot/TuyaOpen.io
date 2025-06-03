@@ -1,5 +1,5 @@
 ````markdown
-# PINMUX Driver
+# tkl_pinmux | PINMUX Driver
 
 ## Brief Description
 

@@ -1,4 +1,4 @@
-# Flash Driver
+# tkl_flash | Flash 驱动
 
 `tkl_flash.c` 文件是由 TuyaOS v&v 工具自动生成的，提供了针对 Flash 存储的基本操作功能，包括读取、写入、擦除 Flash、获取 Flash 信息等。在自动生成的代码框架中，开发者可以在 "BEGIN" 与 "END" 注释之间添加自己的实现来保持用户代码的持久化。
 

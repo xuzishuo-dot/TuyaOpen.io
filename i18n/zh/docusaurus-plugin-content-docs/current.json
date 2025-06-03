@@ -38,5 +38,13 @@
     "sidebar.docs.category.Networking": {
         "message": "网络 API",
         "description": "The label for category Networking in sidebar docs"
+    },
+    "sidebar.docs.category.Contribute": {
+        "message": "贡献",
+        "description": "The label for category Contribute in sidebar docs"
+    },
+    "sidebar.docs.category.faqs": {
+        "message": "常见问题",
+        "description": "The label for category FAQ in sidebar docs"
     }
 }

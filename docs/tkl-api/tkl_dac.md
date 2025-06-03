@@ -1,4 +1,4 @@
-# DAC Driver
+# tkl_dac | DAC Driver
 
 ## Brief Description
 

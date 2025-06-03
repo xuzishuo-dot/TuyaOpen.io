@@ -1,4 +1,4 @@
-# UART Driver
+# tkl_uart | UART Driver
 
 ## Brief Description
 

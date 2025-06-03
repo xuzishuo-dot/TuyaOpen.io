@@ -1,4 +1,4 @@
-# PINMUX 驱动
+# tkl_pinmux | PINMUX 驱动
 
 ## 简要说明
 

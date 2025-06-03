@@ -1,4 +1,4 @@
-# PWM Driver
+# tkl_pwm | PWM Driver
 
 ## Brief Description
 

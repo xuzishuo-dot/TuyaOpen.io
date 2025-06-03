@@ -1,4 +1,5 @@
-# HW Timer Driver
+# tkl_timer | Timer Driver
+
 
 ## Brief Description
 

@@ -1,4 +1,4 @@
-# SPI Driver
+# tkl_spi | SPI Driver
 
 ## Brief Description
 

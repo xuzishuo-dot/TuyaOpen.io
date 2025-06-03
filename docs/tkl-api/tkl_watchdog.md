@@ -1,4 +1,4 @@
-# WATCHDOG Driver
+# tkl_watchdog | Watchdog Driver
 
 ## Brief Description
 

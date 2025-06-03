@@ -1,4 +1,4 @@
-# Network
+# tkl_network | Networking APIs
 
 The `tkl_network.c` file provides a series of APIs required for network communication processes to adapt to different network interfaces. These APIs include creating sockets, connecting, binding, listening, sending data, receiving data, setting and getting socket options, and other network operations. The file defines common handling of network APIs and allows for cross-platform network communication through these encapsulated functions.
 
