@@ -22,7 +22,7 @@ Supporting mainstream open-source ecosystems, it allows seamless porting across 
 
 ## Contribute Code
 
-If you are interested in the TuyaOpen and wish to contribute to its development and become a code contributor, please first read the [Contribution Guide](contribute_guide/index).
+If you are interested in the TuyaOpen and wish to contribute to its development and become a code contributor, please first read the [Contribution Guide](./contribute/contribute-guide.md).
 
 ## Related Links of TuyaOpen
 

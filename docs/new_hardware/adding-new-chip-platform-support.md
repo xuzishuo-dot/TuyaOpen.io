@@ -1,8 +1,8 @@
 ---
-title: Adding New Chip Platform Support
+title: Adding New Chip Platform
 ---
 
-# Adding New Chip Platform Support
+# Adding New Chip Platform
 
 ## Introduction
 
@@ -25,7 +25,7 @@ Or add the TuyaOpen path to your system environment variables.
 
 TuyaOpen uses the tos command for compilation and debugging operations. The tos command locates the TuyaOpen repository through the path set in environment variables.
 
-For detailed usage of the tos command, refer to [tos Guide](/tos_guide/index).
+For detailed usage of the tos command, refer to [tos Guide](./../quick_start/linux-enviroment-setup.md).
 
 2. Generate a new platform subdirectory:
 
@@ -261,5 +261,5 @@ Refer to test documentation for comprehensive validation: [Test Case Documentati
 
 Submit adapted platforms via Pull Requests:
 
-- Process reference: [Contribution Guide](/contribute_guide/index)
-- Coding standards: [Code Style Guide](/code_style_guide/index)
+- Process reference: [Contribution Guide](./../contribute/contribute-guide.md)
+- Coding standards: [Code Style Guide](./../contribute/coding-style-guide.md)

@@ -113,4 +113,4 @@ tos config_choice
 
 ## Contribution
 
-Submit your board via Pull Requests following the [Contribution Guide](contribute_guide) to share it with the community.
+Submit your board via Pull Requests following the [Contribution Guide](../contribute/contribute-guide.md) to share it with the community.

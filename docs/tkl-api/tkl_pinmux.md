@@ -1,4 +1,3 @@
-````markdown
 # tkl_pinmux | PINMUX Driver
 
 ## Brief Description
@@ -12,7 +11,6 @@ Pinmux is used for mapping and multiplexing peripheral pins.
 ```c
 OPERATE_RET tkl_io_pinmux_config(TUYA_PIN_NAME_E pin, TUYA_PIN_FUNC_E pin_func);
 ```
-````
 
 - **Function Description:**
   - Configure the function of an IO pin.

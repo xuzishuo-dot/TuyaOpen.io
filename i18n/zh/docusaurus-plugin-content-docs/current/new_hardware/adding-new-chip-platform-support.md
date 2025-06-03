@@ -25,7 +25,7 @@ $ export PATH=$PATH:$PWD
 
 TuyaOpen 通过 tos 命令进行编译、调试等操作，tos 命令会根据环境变量中设置的路径查找 TuyaOpen 仓库，并执行对应操作。
 
-tos 命令的详细使用方法，请参考 [tos 命令](/tos_guide/index)。
+tos 命令的详细使用方法，请参考 [tos 命令](./../quick_start/linux-enviroment-setup.md)。
 
 2. 通过以下命令，生成一个新的 `platform` 子目录：
 
@@ -304,5 +304,5 @@ TuyaOpen
 
 完成适配并通过测试后，欢迎提交 Push Requests 提交代码，将新适配的 platform 对应的 `platform_config.yaml` 提交至 [TuyaOpen仓库](https://github.com/tuya/TuyaOpen)：
 
-- Push Requests 流程可参考 [贡献指南](/contribute_guide/index)
-- 编程规范可参考 [编码风格指南](/code_style_guide/index)
+- Push Requests 流程可参考 [贡献指南](./../contribute/contribute-guide.md)
+- 编程规范可参考 [编码风格指南](./../contribute/coding-style-guide.md)

@@ -139,4 +139,4 @@ tos config_choice
 
 ## 贡献代码
 
-可参考[贡献代码指导](/contribute_guide/index)将新增的板子合到 TuyaOpen 的主分支上，让更多的开发者可以用到你的开发板。
+可参考[贡献代码指导](../contribute/contribute-guide.md)将新增的板子合到 TuyaOpen 的主分支上，让更多的开发者可以用到你的开发板。
