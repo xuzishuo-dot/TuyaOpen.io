@@ -117,6 +117,7 @@ module.exports = {
           label: 'Docs Templates',
           collapsed: true,
           items: [
+            'contribute/template/markdown-syntax',
             'contribute/template/concept_template',
             'contribute/template/development_guide_template',
             'contribute/template/faq_template',
