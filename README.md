@@ -16,6 +16,7 @@
 
 - [How to develop](#how-to-develop)
 - [Build](#build)
+- [Deploy to Production](#deploy-to-production)
 - [Release a new version](#release-a-new-version)
   - [Release a major or minor version](#release-a-major-or-minor-version)
     - [Update i18n](#update-i18n)
@@ -24,7 +25,31 @@
 - [How to contribute](#how-to-contribute)
 - [License](#license)
 
+
+# File Paths
+## Documentation Path
+- English Docs `./docs`
+- ZH Chinese Docs `./i18n/zh/docusaurus-plugin-content-docs/current`
+- Sidebar (Manages what's listed on the sidebar)  `./sidebars.js`
+- Blogs `./blog`
+
 ## How to develop
+To develop this website locally, you'll need to have Node.js installed (version 18 or higher) and npm. If you don't have them installed, you can install them using:
+
+```shell
+# Ubuntu/Linux
+
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 22
+```
+for other OS enviroment [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
+
+### Building and Serving Website Locally
 
 ```sh
 npm install # install deps
@@ -47,7 +72,23 @@ npm build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Release a new version
+
+
+## Deploy to Production
+To deploy the website to the production server, run:
+
+```shell
+# SSH login into remote server 
+$ ssh {REMOTE_USER}@{REMOTE_IP}
+
+#then
+
+# Enter into code, and run deploy script. It pulls the latest git master commits. And automated Docker Build/Serve. to production enviroment.
+$(remote-server) cd ~/code/TuyaOpen.io && sh ./deploy_local.sh
+```
+
+
+# Release a new version
 
 ### Release a major or minor version
 
