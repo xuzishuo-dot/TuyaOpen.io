@@ -53,7 +53,9 @@ title: Windows 开发指南
 
 ## 使用限制
 
-:::tip 提示 2025/05/30 目前 Windows 开发环境下的 tos.py 工具暂时只支持 ESP32。 Tuya T5 芯片 计划`6月中`支持 :::
+:::tip 
+提示 2025/05/30 目前 Windows 开发环境下的 tos.py 工具暂时只支持 ESP32。 Tuya T5 芯片 计划`6月中`支持 
+:::
 
 ## 快速开始
 
@@ -87,12 +89,16 @@ tos.py version
 exit
 ```
 
-:::tip命令行选择您可以使用以下任意一种命令行工具：
+:::tip
+命令行选择您可以使用以下任意一种命令行工具：
 
 - PowerShell（推荐）
-- Windows 命令提示符（CMD）:::
+- Windows 命令提示符（CMD）
+:::
 
-:::warning 注意 Git Bash（类 Linux 环境）与 tos.py 工具不兼容，请使用 PowerShell 或 CMD。:::
+:::warning 
+注意 Git Bash（类 Linux 环境）与 tos.py 工具不兼容，请使用 PowerShell 或 CMD。
+:::
 
 ## `tos.py` 使用说明
 
@@ -189,7 +195,9 @@ tos.py flash
 
    - TuyaOpen 支持了芯片跨平台能力。`tos.py config choice`命令能让项目编译底层芯片平台时, 进行切换兼容适配不同芯片平台。
 
-     :::tip 重要提示要实现芯片平台的自由切换，您的项目代码必须使用 Tuya 提供的硬件抽象层（Hardware Abstraction Layer）API，即 tkl API。这些 API 封装了底层硬件细节，使您的应用代码能够与不同的芯片平台无缝对接。如果您的代码直接调用了特定芯片的原生 API，将无法实现跨平台切换。:::
+     :::tip 
+     重要提示要实现芯片平台的自由切换，您的项目代码必须使用 Tuya 提供的硬件抽象层（Hardware Abstraction Layer）API，即 tkl API。这些 API 封装了底层硬件细节，使您的应用代码能够与不同的芯片平台无缝对接。如果您的代码直接调用了特定芯片的原生 API，将无法实现跨平台切换。
+     :::
 
    ```shell
    # 工程目录下

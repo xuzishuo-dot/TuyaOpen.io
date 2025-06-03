@@ -52,7 +52,9 @@ Before getting started, ensure your system meets the following requirements:
 
 ## Usage Limitations
 
-:::tip Note As of 2025/05/30, the tos.py tool in Windows development environment currently only supports ESP32. Tuya T5 chip support is planned for `mid-June`. :::
+:::tip
+Note As of 2025/05/30, the tos.py tool in Windows development environment currently only supports ESP32. Tuya T5 chip support is planned for `mid-June`. 
+:::
 
 ## Quick Start
 
@@ -86,12 +88,16 @@ tos.py version
 exit
 ```
 
-:::tip Command Line Selection You can use any of the following command line tools:
+:::tip 
+Command Line Selection You can use any of the following command line tools:
 
 - PowerShell (recommended)
-- Windows Command Prompt (CMD) :::
+- Windows Command Prompt (CMD) 
+:::
 
-:::warning Note Git Bash (Linux-like environment) is not compatible with the tos.py tool. Please use PowerShell or CMD. :::
+:::warning 
+Note Git Bash (Linux-like environment) is not compatible with the tos.py tool. Please use PowerShell or CMD. 
+:::
 
 ## `tos.py` Usage Guide
 
@@ -188,7 +194,9 @@ tos.py flash
 
    - TuyaOpen supports cross-platform chip capabilities. The `tos.py config choice` command allows project compilation to switch between different chip platforms.
 
-   ::: tip Important Note To achieve seamless chip platform switching, your project code must use Tuya's Hardware Abstraction Layer (HAL) APIs, known as tkl APIs. These APIs encapsulate underlying hardware details, enabling your application code to work seamlessly across different chip platforms. If your code directly calls native chip-specific APIs, cross-platform switching will not be possible. :::
+   ::: tip 
+   Important Note To achieve seamless chip platform switching, your project code must use Tuya's Hardware Abstraction Layer (HAL) APIs, known as tkl APIs. These APIs encapsulate underlying hardware details, enabling your application code to work seamlessly across different chip platforms. If your code directly calls native chip-specific APIs, cross-platform switching will not be possible. 
+   :::
 
    ```shell
    # In project directory
