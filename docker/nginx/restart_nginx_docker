@@ -1,6 +1,5 @@
 
 #!/bin/bash
-#!/bin/bash
 
 # Parse command line arguments
 while getopts "trs" opt; do
