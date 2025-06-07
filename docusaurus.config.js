@@ -77,7 +77,7 @@ const config = {
     image: '/img/home/tuyaopen-logo-social-preview.png',
     algolia: {
       appId: 'NT1L7IWROF',
-      apiKey: '1c963b531983422f8968619a9313e219',
+      apiKey: '2469e58a262dcca7c8c5c1d5c9f33a52',
       indexName: 'tuyaopen',
     },
     navbar: {
