@@ -79,6 +79,11 @@ const config = {
       appId: 'NT1L7IWROF',
       apiKey: '2469e58a262dcca7c8c5c1d5c9f33a52',
       indexName: 'tuyaopen',
+      contextualSearch: false,
+      searchParameters: {
+        facetFilters: [],
+      },
+      searchPagePath: 'search',
     },
     navbar: {
       hideOnScroll: true,
