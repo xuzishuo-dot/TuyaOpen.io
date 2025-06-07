@@ -46,7 +46,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: 'G-xxxxxxxx',
+          trackingID: 'G-3M0J54E8XF',
         },
         docs: {
           sidebarPath: './sidebars.js',
@@ -75,6 +75,11 @@ const config = {
       respectPrefersColorScheme: true,
     },
     image: '/img/home/tuyaopen-logo-social-preview.png',
+    algolia: {
+      appId: 'NT1L7IWROF',
+      apiKey: '1c963b531983422f8968619a9313e219',
+      indexName: 'tuyaopen',
+    },
     navbar: {
       hideOnScroll: true,
       title: 'TuyaOpen',
@@ -84,7 +89,6 @@ const config = {
         srcDark: 'img/home/tuyaopen-logo-simple-light.png',
       },
       items: [
-        // { to: 'http://docs.tuyaopen.io/', label: 'Documentation' },
         { to: 'docs/about-tuyaopen', label: 'Documentation' },
 
         // ======Blog========
@@ -101,10 +105,10 @@ const config = {
         // },
 
         // TODO: huate: add the link to the community group
-        // {
-        //   href: 'https://github.com/tuya/TuyaOpen/discussions/',
-        //   label: 'Community Group',
-        // },
+        {
+          href: 'https://github.com/tuya/TuyaOpen/discussions/',
+          label: 'Community Group',
+        },
 
         // {
         //   type: 'docsVersionDropdown',
