@@ -105,10 +105,10 @@ const config = {
         // },
 
         // TODO: huate: add the link to the community group
-        {
-          href: 'https://github.com/tuya/TuyaOpen/discussions/',
-          label: 'Community Group',
-        },
+        // {
+        //   href: 'https://github.com/tuya/TuyaOpen/discussions/',
+        //   label: 'Community Group',
+        // },
 
         // {
         //   type: 'docsVersionDropdown',
