@@ -222,6 +222,15 @@ const config = {
     //   },
     // ],
   ],
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '6232065417750C16',
+      },
+    },
+  ],
 }
 
 export default config
