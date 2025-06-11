@@ -27,6 +27,21 @@ module.exports = {
             'quick_start/flashing-with-command-line-interface',
           ],
         },
+        'quick_start/terminologies',
+      ],
+    },
+    // ------------------------------------------------------------------
+    {
+      type: 'category',
+      label: 'Hardware Guides',
+      collapsed: false,
+      items: [
+        {
+          type: 'category',
+          label: 'T5-AI Board DevKit',
+          collapsed: false,
+          items: ['hardware-specific/t5-ai-board/overview-t5-ai-board'],
+        },
       ],
     },
     // ------------------------------------------------------------------
