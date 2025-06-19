@@ -395,7 +395,7 @@ Select serial port: 1
 
 ## 设备配网
 
-[设备配网指导](https://tuyaopen.ai)
+[设备配网指导](./device-network-configuration.md)
 
 ## 常见问题
 
