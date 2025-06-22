@@ -97,10 +97,10 @@ const config = {
         { to: 'docs/about-tuyaopen', label: 'Documentation' },
 
         // ======Blog========
-        // {
-        //   to: 'blog',
-        //   label: 'Blog',
-        // },
+        {
+          to: 'blog',
+          label: 'Blog',
+        },
 
         // ======Hardware List ========
         // {
