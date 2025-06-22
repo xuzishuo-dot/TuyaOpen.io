@@ -1,34 +1,33 @@
 ---
-slug: /52hrs-hackathon-with-tuyaopen
-title: '52小时-创业森林 黑客松大赛'
-authors: [tuya,hsuanhanlai]
+slug: /52h-with-tuyaopen
+title: '52H 创业森林活动'
+authors: [tuya, hsuanhanlai]
 image: /img/home/tuyaopen-logo-social-preview.png
-tags: [TuyaOpen, Hackathon, Contest]
+tags: [TuyaOpen, Contest]
 ---
-
 
 ![event](https://images.tuyacn.com/fe-static/docs/img/6d005a49-7b92-4602-af60-b7acca333eab.png)
 
-> **此文档为大赛专用文档，为参赛者提供 总览指引。**
+> **本指南为大赛专用文档，旨在为参赛者提供全面的活动指引。**
 
-### 比赛信息：
-大赛时间：6/27~6/29 【52小时】
+### 比赛信息
+- 活动时间：6/27 ~ 6/29（共 52 小时）
 
+# 重要资源
+- 涂鸦大赛 PPT：[PPT 介绍](https://tuyaopen-pu9rufi.gamma.site/)
+- TuyaOpen 代码仓库：[GitHub](https://github.com/tuya/TuyaOpen)
+- TuyaOpen 文档官网：[tuyaopen.ai](https://tuyaopen.ai)
 
-# 重要资源：
-- 涂鸦大赛PPT ---> [PPT 介绍](https://tuyaopen-pu9rufi.gamma.site/)
-- TuyaOpen 代码仓库 ---> [Github](https://github.com/tuya/TuyaOpen)
-- TuyaOpen 文档官网 ---> [tuyaopen.ai](https://tuyaopen.ai)
+## TuyaOpen 与 TuyaOS 对比
 
+TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发者验证。它提供了定义良好的 API，便于开发支持多种 MCU 的 C/C++ 应用程序，极大简化了外设连接、云连接和安全性等复杂流程。该框架让开发更高效，助力您快速构建 AI+IoT 产品。
 
-## TuyaOpen vs TuyaOS
-TuyaOpen 是从行业领先的 TuyaOS 架构开源的。经过全球 130 万开发者的验证，它提供了一个定义良好的 API，用于开发支持不同 MCU 的 C/C++ 应用程序。抽象了外设连接、云连接和安全性的复杂性。此框架通过简单的编码体验加速您的开发过程，使您能够更快、更轻松地构建 AI+IoT 产品。
-
-:::tip 怎么选？
-大赛同学按照需求选用即可。目前如果有“视频AI”和"商业化"需求选TuyaOS，不然强烈建议TuyaOpen。TuyaOpen生态更加开放。
+:::tip 如何选择？
+参赛者可根据需求选择。如果有“视频 AI”或“商业化”需求，建议选用 TuyaOS，否则强烈推荐 TuyaOpen，其生态更加开放。
 :::
 
-### TuyaOpen vs TuyaOS 差异
+### 主要差异对比
+
 | 功能                  | TuyaOpen                                         | TuyaOS                                                      |
 |-----------------------|--------------------------------------------------|-------------------------------------------------------------|
 | 目标用户              | 开源开发者                                        | 商业合作开发者                                              |
@@ -123,9 +122,9 @@ TuyaOpen 是从行业领先的 TuyaOS 架构开源的。经过全球 130 万开�
 
 ---
 
-# 现场资源
+# 涂鸦硬件资源
 避免资源滥用，优先支持有明确idea团队领取/使用。也非常建议团队带自己熟悉的工具。
-开发板必须选用大赛指定，但是外设和产品形态也非常鼓励自备携带参赛。
+开发板必须选用大赛指定 T5 或是 RDX+T5。但是其他外设器件/硬件和产品形态是非常鼓励自备携带参赛。
 
 ### 开发板
 - [涂鸦T5 AI开发板](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)	x15
@@ -152,7 +151,7 @@ TuyaOpen 是从行业领先的 TuyaOS 架构开源的。经过全球 130 万开�
 ---
 
 
-# 技术支持 🛠️📋
+# 涂鸦技术支持 🛠️📋
 - 活动现场有涂鸦的技术老师，和地瓜机器人的老师们。会在活动现场提供适当的技术支持。
 
 :::tip
