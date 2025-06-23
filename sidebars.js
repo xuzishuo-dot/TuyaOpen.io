@@ -45,20 +45,27 @@ module.exports = {
     // ------------------------------------------------------------------
     {
       type: 'category',
-      label: 'New Hardware Support',
+      label: 'Application Demo',
       collapsed: true,
-      items: ['new_hardware/adding-new-chip-platform-support', 'new_hardware/adding-new-board-support'],
+      items: [
+        {
+          type: 'category',
+          label: 'AI App Components',
+          collapsed: false,
+          items: ['applications/ai-components/ai-audio'],
+        },
+        // 'applications/application-development-guide',
+        'applications/demo-your-chat-bot',
+        'applications/demo-tuya-iot-light',
+        'applications/demo-generic-examples',
+      ],
     },
     // ------------------------------------------------------------------
     {
       type: 'category',
-      label: 'Application Demo',
+      label: 'New Hardware Support',
       collapsed: true,
-      items: [
-        'applications/application-development-guide',
-        'applications/demo-generic-examples',
-        'applications/demo-tuya-iot-light',
-      ],
+      items: ['new_hardware/adding-new-chip-platform-support', 'new_hardware/adding-new-board-support'],
     },
     // ------------------------------------------------------------------
     {
