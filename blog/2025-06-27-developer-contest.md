@@ -34,9 +34,9 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
 | 源代码获取            | 完全开源，源码可访问                               | 商用代码部分开源，支持二次开发                               |
 | 代码下载              | GitHub、Gitee 免费开源下载                        | VSCode 插件 WindIDE + 邮箱授权获取代码                      |
 | 开发环境              | Linux、Windows、Mac                               | 仅支持 Linux，其他平台需用虚拟机                             |
-| Tuya Wukong 云端AI组件 | ✅                                                | ✅ 最新最快                                                  |
-| Tuya Wukong 语音 AI ASR 能力 | ✅                                         | ✅                                                          |
-| Tuya Wukong 视频 AI 能力    | ❌ 暂不支持                                  | ✅                                                          |
+| Tuya 云端AI组件 | ✅                                                | ✅ 最新最快                                                  |
+| Tuya 语音 AI ASR 能力 | ✅                                         | ✅                                                          |
+| Tuya 视频 AI 能力    | ❌ 暂不支持                                  | ✅                                                          |
 | Tuya 雲大模型定制化能力 （LLM/Prompt/Workflow/RAG）   | ✅                                  | ✅                                                          |
 | 源码定制能力          | 高度源码定制                                      | API 级定制，链接库，商业功能组件更丰富                       |
 | 芯片支持              | Tuya T 系列 / ESP 系列（详见支持列表）             | Tuya T 系列                                                 |
