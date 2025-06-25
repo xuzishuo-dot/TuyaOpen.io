@@ -116,9 +116,14 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
 - 使用上可以参考 [T5AI Board](/blog#%E6%B6%82%E9%B8%A6-t5ai-board-%E5%BC%80%E5%8F%91%E6%9D%BF) 功能相近。
 
 ### 地瓜机器人RDK X5
-- 如何RDK和TuyaOpen整合? 🚧：【施工中】
 - 资料文档入口：[RDK X5 文档入口](https://developer.d-robotics.cc/information)
 
+#### RDK如何和TuyaOpen整合?
+>如果单独 T5 的算力不够吗？让RDK X5来支持你的边缘计算需求！使用RDK+Tuyaopen方案来实现本地实时模型推理和云大模型的混合架构。
+- Tuya App 远程控制 RDK X5 能力。
+    - RDK + TuyaOpen框架方案 Demo 教程：[PDF](/docs/rdk/rdk-originbot-with-tuya-dp-control-demo.pdf)
+- RDK X5 与 Tuya T5 芯片混合框架
+    - 边缘计算+云计算的结合 [Guide](https://diguazhandian-rdkx5-tuya-t4otm0d.gamma.site/)
 
 ---
 
@@ -185,9 +190,13 @@ Issue 内容：
 4. 授权码是什么？
     - 硬件访问云服务的安全鉴权码确保硬件安全。UUID/Key 为一组的码。注意是！TuyaOS 和 TuyaOpen 的授权码不能混用。哪怕能力和服务功能相似，授权互不兼容。
 5. 我可以在 Windows 下开发码？
-    - 可以的
+    - 可以的, 现在Master 主分支可以体验
 6. 我可以在 MacOS 下开发码？
+    - 可以的, 现在Master 主分支可以体验
     - 内测功能，可以在Mac x86/ARM 环境下开发但是可能有未发现问题。优先建议Linun 和 Windows.
+7. MacOS M-系列 编译 T5 项目时遇到 `lwip` 编译错误。
+    - Mac gcc版本差异，在T5芯片使用时，需要做如下修改
+    - [已解决 Issue](https://github.com/tuya/TuyaOpen/issues/204)
 
 
 
