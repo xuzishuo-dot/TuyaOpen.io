@@ -100,5 +100,8 @@ The T5AI-Board uses On-Board CH343 USB-to-Serial chip for firmware flashing and 
 - [macOS Driver](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 
-## Related Documentation
-- [Getting Started with T5AI-Board](./) (Coming Soon)
+## Related Technical Documentation/Demos
+- [T5AI-Board Getting Started Guide - (Environment Setup + Flashing + Demo)](/docs/quick_start/enviroment-setup)
+- [T5AI-Board Demo Chatbot](/docs/applications/demo-your-chat-bot)
+- [T5AI-Board Demo IoT Smart Socket/Light](/docs/applications/demo-tuya-iot-light)
+- [T5AI-Board Demo WIFI/BT and Other Peripherals](/docs/applications/demo-generic-examples)

@@ -52,7 +52,7 @@ module.exports = {
           type: 'category',
           label: 'AI App Components',
           collapsed: false,
-          items: ['applications/ai-components/ai-audio'],
+          items: ['applications/ai-components/ai-audio-asr-impl'],
         },
         // 'applications/application-development-guide',
         'applications/demo-your-chat-bot',
