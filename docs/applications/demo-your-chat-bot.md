@@ -160,7 +160,7 @@ The `config` directory contains configuration files for various boards. If you a
 
 ## Workflow
 
-This project depends on the [ai_audio](./ai-components/ai-audio.md) application component, which mainly implements audio collection, playback, cloud AI session creation, and other functions.
+This project depends on the [ai_audio](/docs/applications/ai-components/ai-audio-asr-impl) application component, which mainly implements audio collection, playback, cloud AI session creation, and other functions.
 
 - **Long-press talk mode**
 
