@@ -93,12 +93,15 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
     - 能力地图： [link](https://developer.tuya.com/cn/docs/iot-device-dev/wukong-abi-map?id=Keedxu1netj62)
     - 多模态交互： [link](https://developer.tuya.com/cn/docs/iot-device-dev/tuyaos-wukong-capability-multi-media)
 
+---
 
 ## Tuya云平台 零代码云端AI开发
 - 注册 Tuya Developer 云服务
     - https://auth.tuya.com/register
 - 文档：智能体开发平台
-    - https://developer.tuya.com/cn/docs/iot/ai-agent-management?id=Kdxr4v7uv4fud
+    - https://developer.tuya.com/cn/docs/iot/ai-agent-management
+- 文档：让AI直接调函数-DP自控
+    - https://developer.tuya.com/cn/docs/iot/Self-control?id=Kep3yhifdrvah
 
 ---
 
