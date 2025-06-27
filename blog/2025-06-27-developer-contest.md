@@ -16,14 +16,14 @@ tags: [TuyaOpen, Contest]
 # 重要资源
 - 涂鸦大赛 PPT：[PPT 介绍](https://tuyaopen-pu9rufi.gamma.site/)
 - TuyaOpen 代码仓库：[GitHub](https://github.com/tuya/TuyaOpen)
-- TuyaOpen 文档官网：[tuyaopen.ai](https://tuyaopen.ai)
+- TuyaOpen 文档官网：[文档](https://tuyaopen.ai)
 
-## TuyaOpen 与 TuyaOS 对比
+## TuyaOpen 与 TuyaOS
 
-TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发者验证。它提供了定义良好的 API，便于开发支持多种 MCU 的 C/C++ 应用程序，极大简化了外设连接、云连接和安全性等复杂流程。该框架让开发更高效，助力您快速构建 AI+IoT 产品。
+TuyaOpen 基于行业领先的 TuyaOS 架构开源，已获得全球 130 万开发者实践验证。TuyaOpen 提供了定义清晰的 API，便于开发支持多种 MCU 的 C/C++ 应用程序，深度简化了外设连接、云连接和安全性等复杂的开发流程。该框架能够大幅提升开发效率，助力您快速构建 AI + IoT 智能产品。
 
 :::tip 如何选择？
-参赛者可根据需求选择。如果有“视频 AI”或“商业化”需求，建议选用 TuyaOS，否则强烈推荐 TuyaOpen，其生态更加开放。
+参赛者可根据需求选择。如果您有 **视频 AI 能力集成** 或 **商业化场景** 的需求，建议优先选用 TuyaOS；如为其他场景或需求，则推荐生态更加开放的 TuyaOpen。
 :::
 
 ### 主要差异对比
@@ -37,7 +37,7 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
 | Tuya 云端AI组件 | ✅                                                | ✅ 最新最快                                                  |
 | Tuya 语音 AI ASR 能力 | ✅                                         | ✅                                                          |
 | Tuya 视频 AI 能力    | ❌ 暂不支持                                  | ✅                                                          |
-| Tuya 雲大模型定制化能力 （LLM/Prompt/Workflow/RAG）   | ✅                                  | ✅                                                          |
+| Tuya 云大模型定制化能力 （LLM/Prompt/Workflow/RAG）   | ✅                                  | ✅                                                          |
 | 源码定制能力          | 高度源码定制                                      | API 级定制，链接库，商业功能组件更丰富                       |
 | 芯片支持              | Tuya T 系列 / ESP 系列（详见支持列表）             | Tuya T 系列                                                 |
 | 开发语言              | C/C++                                            | C/C++                                                       |
@@ -49,59 +49,58 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
 # 嵌入式软件开发 
 ## TuyaOpen 专区
 ### 文档
-- TuyaOpen 总文档：[docs](/docs/about-tuyaopen)
-- AI API 代码模块: https://github.com/tuya/TuyaOpen/tree/master/src/tuya_ai_basic
+- TuyaOpen 文档：[文档](/docs/about-tuyaopen)
+- AI API 代码模块：[代码模块](https://github.com/tuya/TuyaOpen/tree/master/src/tuya_ai_basic)
 
 ### 示例总览
-善用示例代码 减少开发成本避免重复造轮子。
 
-- your chat bot: https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot
+善用示例代码，可以减少开发成本，避免 “重复造轮子”。
+
+- your chat bot：[点击前往](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot)
     - T5/ESP32 跨平台支持示例
-    - 语音ASR + Tuya 云端大模型
+    - 语音 ASR + Tuya 云端大模型
     - 连接 AI Prompt/Agent 能力
     - 情绪感知交互能力
-    - 模块组件： `屏幕`+`Mic`+`Speaker`+`WIFI`+`按键`
+    - 模块组件：`屏幕` + `Mic` + `Speaker` + `Wi-Fi` + `按键`
 
-- your chat bot: https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot    
+- your chat bot：[点击前往](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot)    
     - T5/ESP32 跨平台支持示例
-    - 语音ASR + Tuya 云端大模型
+    - 语音 ASR + Tuya 云端大模型
     - 连接 AI Prompt/Agent 能力
     - 情绪感知交互能力
     - 做种唤醒模式
     - App 控制机器人交互
     - 情感识别 -> 动作的能力
-    - 模块组件： `屏幕`+`Mic`+`Speaker`+`WIFI`+`按键` + `舵机`
-- Switch Demo https://github.com/tuya/TuyaOpen/tree/master/apps/tuya_cloud/switch_demo
-    - 基础原生示例演示设备作为 IoT LED 灯可连接至涂鸦云，被Tuya云服务/APP控制
+    - 模块组件：`屏幕` + `Mic` + `Speaker` + `Wi-Fi` + `按键` + `舵机`
+- Switch Demo：[点击前往](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya_cloud/switch_demo)
+    - 基础原生示例演示设备作为 IoT LED 灯可连接至涂鸦云，被 Tuya 云服务/App 控制
     - DP 消息事件处理
     - 基础配网，硬件鉴权过程
 
-- 基础组件Demo https://github.com/tuya/TuyaOpen/tree/master/examples
-    - 蓝牙/WIFI
+- 基础组件 Demo：[点击前往](https://github.com/tuya/TuyaOpen/tree/master/examples)
+    - 蓝牙/Wi-Fi
     - SPI I2C ADC 基础接口协议 Demo
-    - 协议Demo
-    - 屏幕渲染框架LVGL 示例
-    等等....
+    - 协议 Demo
+    - 屏幕渲染框架 LVGL 示例
+    等....
 
 
 ## TuyaOS 专区
-- WindIDE：Tuya Wind IDE 是面向基于 TuyaOS EasyGo 的开发者提供的一站式集成开发环境。
-    - https://developer.tuya.com/cn/docs/iot-device-dev/tuyaos-wind-ide
 
-    ## AI 基建 Tuya Wukong AI 嵌入式设备端
-    - Tuya Wukong AI https://developer.tuya.com/cn/docs/iot-device-dev/ai-hardware?id=Kectwmx9isrgl
-    - 能力地图： [link](https://developer.tuya.com/cn/docs/iot-device-dev/wukong-abi-map?id=Keedxu1netj62)
-    - 多模态交互： [link](https://developer.tuya.com/cn/docs/iot-device-dev/tuyaos-wukong-capability-multi-media)
+Tuya Wind IDE 是面向基于 TuyaOS EasyGo 的开发者提供的一站式集成开发环境，您可以 [点击前往](https://developer.tuya.com/cn/docs/iot-device-dev/tuyaos-wind-ide)。
+
+### AI 基建 Tuya Wukong AI 嵌入式设备端
+- Tuya Wukong AI：[点击前往](https://developer.tuya.com/cn/docs/iot-device-dev/ai-hardware?id=Kectwmx9isrgl)
+- 能力地图：[点击前往](https://developer.tuya.com/cn/docs/iot-device-dev/wukong-abi-map?id=Keedxu1netj62)
+- 多模态交互：[点击前往](https://developer.tuya.com/cn/docs/iot-device-dev/tuyaos-wukong-capability-multi-media)
 
 ---
 
-## Tuya云平台 零代码云端AI开发
-- 注册 Tuya Developer 云服务
-    - https://auth.tuya.com/register
-- 文档：智能体开发平台
-    - https://developer.tuya.com/cn/docs/iot/ai-agent-management
-- 文档：让AI直接调函数-DP自控
-    - https://developer.tuya.com/cn/docs/iot/Self-control?id=Kep3yhifdrvah
+## Tuya 云平台，零代码云端 AI 开发
+- 注册 Tuya Developer 云服务，[点击前往](https://auth.tuya.com/register)
+- 参考文档：
+    - [智能体开发平台](https://developer.tuya.com/cn/docs/iot/ai-agent-management)
+    - [让 AI 直接调函数 - 设备自控指令功能](https://developer.tuya.com/cn/docs/iot/Self-control?id=Kep3yhifdrvah)
 
 ---
 
@@ -111,64 +110,74 @@ TuyaOpen 基于行业领先的 TuyaOS 架构开源，经过全球 130 万开发�
 ![T5-AI Board Pinout](https://images.tuyacn.com/fe-static/docs/img/6b7ab959-0635-4293-991b-b8dda293614b.jpg)
 
 - 资料文档入口：[T5AI Board Overview](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)
-- I/O Pin脚高清下载：[Pinout](/docs/hardware/T5-AI-Board-Pinout-v102.pdf)
-- 如何快速编译项目+烧写？：[教程](/docs/quick_start/enviroment-setup)
+- I/O Pin 脚高清下载：[Pinout](/docs/hardware/T5-AI-Board-Pinout-v102.pdf)
+- 如何快速编译项目 + 烧写？：[教程](/docs/quick_start/enviroment-setup)
 
-### 涂鸦T5 mini开发板 （第三方社区开发板）
-- 优势是更小尺寸，适合空间要求较高方案。（社区开发板-文档不全）
-- 使用上可以参考 [T5AI Board](/blog#%E6%B6%82%E9%B8%A6-t5ai-board-%E5%BC%80%E5%8F%91%E6%9D%BF) 功能相近。
+### 涂鸦 T5 mini 开发板（第三方社区开发板）
 
-### 地瓜机器人RDK X5
-- 资料文档入口：[RDK X5 文档入口](https://developer.d-robotics.cc/information)
+- 优势是更小尺寸，适合空间要求较高方案。
+- 使用方法，您可以参考 [T5AI Board](/blog#%E6%B6%82%E9%B8%A6-t5ai-board-%E5%BC%80%E5%8F%91%E6%9D%BF)，功能较为接近。
 
-#### RDK如何和TuyaOpen整合?
->如果单独 T5 的算力不够吗？让RDK X5来支持你的边缘计算需求！使用RDK+Tuyaopen方案来实现本地实时模型推理和云大模型的混合架构。
+### 地瓜机器人 RDK X5
+
+参考文档：[RDK X5 文档](https://developer.d-robotics.cc/information)
+
+#### RDK 如何与 TuyaOpen 整合?
+
+>担心单独 T5 的算力不够吗？让 RDK X5 来支持你的边缘计算需求！使用 RDK + TuyaOpen 方案来实现本地实时模型推理和云大模型的混合架构。
 - Tuya App 远程控制 RDK X5 能力。
-    - RDK + TuyaOpen框架方案 Demo 教程：[PDF](/docs/rdk/rdk-originbot-with-tuya-dp-control-demo.pdf)
+    - RDK + TuyaOpen 框架方案 Demo：[教程](/docs/rdk/rdk-originbot-with-tuya-dp-control-demo.pdf)
 - RDK X5 与 Tuya T5 芯片混合框架
-    - 边缘计算+云计算的结合 [Guide](https://diguazhandian-rdkx5-tuya-t4otm0d.gamma.site/)
+    - 边缘计算 + 云计算的结合：[教程](https://diguazhandian-rdkx5-tuya-t4otm0d.gamma.site/)
 
 ---
 
 # 涂鸦硬件资源
-避免资源滥用，优先支持有明确idea团队领取/使用。也非常建议团队带自己熟悉的工具。
-开发板必须选用大赛指定 T5 或是 RDX+T5。但是其他外设器件/硬件和产品形态是非常鼓励自备携带参赛。
+- 为避免资源滥用，优先支持有明确 Idea 的团队领取/使用，也建议您的团队携带自己熟悉的工具。
+- 开发板必须选用大赛指定 T5 或 RDX + T5，其他外设器件/硬件和产品形态，则鼓励您自备携带参赛。
+
+关于现场可用硬件资源的数量，请参考下文：
 
 ### 开发板
-- [涂鸦T5 AI开发板](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)	x15
-- 涂鸦T5 mini开发板	x10
-- 地瓜机器人RDK X5	x20
+- [涂鸦 T5-AI 开发板](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)：15
+- 涂鸦 T5 mini 开发板：10
+- 地瓜机器人 RDK X5：20
+
 ### 外设配件
-- 喇叭（3020 4欧3瓦）	x20
-- 显示屏（1.54寸ST7789 ）	x10
-- 电池包（2000mAh）	x10
-- 舵机（MG90S）	x40
-- 传感器套件（手势、触摸、光敏、空气、温湿度、超声波等10多种）x4套
-- 杜邦线/数据线	若干
+- 喇叭（3020，4 欧，3 瓦）：20
+- 显示屏（1.54寸，ST7789 ）：10
+- 电池包（2000 mAh）：10
+- 舵机（MG90S）：40
+- 传感器套件（手势、触摸、光敏、空气、温湿度、超声波等 10 余种）：4 
+- 杜邦线/数据线：若干
+
 ### 工具 
-- 正点原子HP15智能加热台	2台
-- 正点原子DM40数字万用表	2台
-- 正点原子T80/T80P智能电烙铁	2台
-- 正点原子逻辑分析仪	2台
-- 可调直流电源（Max 60V/5A）	1台
-- 热风枪	1台
-- 热胶枪	1台
-- 螺丝刀	1套
-- 3D打印机（拓竹 P1S+AMS）5台
+
+- 正点原子 HP15 智能加热台：2 台
+- 正点原子 DM40 数字万用表：2 台
+- 正点原子 T80/T80P 智能电烙铁：2 台
+- 正点原子逻辑分析仪：2 台
+- 可调直流电源（Max 60V/5A）：1 台
+- 热风枪：1 台
+- 热胶枪：1 台
+- 螺丝刀：1 套
+- 3D 打印机（拓竹 P1S+AMS）：5 台
 
 ---
 
 
 # 涂鸦技术支持 🛠️📋
-- 活动现场有涂鸦的技术老师，和地瓜机器人的老师们。会在活动现场提供适当的技术支持。
+
+活动现场有涂鸦的技术老师和地瓜机器人的老师们，会在活动现场提供适当的技术支持。
 
 :::tip
-如果有是较为复杂的问题,或是活动现场没有得到支持，可以梳理好问题后在 Github 上面提 Issue 📝，我们会尽快安排人员支持。
+如果有较为复杂的问题，或是活动当天在现场没有得到及时的支持，可以梳理好问题后在 Github 上面提 Issue 📝，涂鸦会尽快安排人员支持。
 :::
 
 Issue Link：https://github.com/tuya/TuyaOpen/issues
 
 ### Issue 问题格式
+
 ``` shell
 ### 带上`【52活动】` 帮助工作人员识别活动问题
 Issue 标题: 【52活动】 (bug/question/hardware): {明确清晰的问题描述}
@@ -184,22 +193,20 @@ Issue 内容：
 ---
 
 # 常见问题
-1. ESP32 怎么开发？
-    - tos.py 工具能完成编译和烧写环节。代码项目选对板级config配置为 ESPxxx.config, tos.py `build` 和 `flash` 均跨平台支持。
+
+1. 如何开发 ESP32？
+tos.py 工具能完成编译和烧写环节。代码项目选对板级 config 配置为 ESPxxx.config, tos.py `build` 和 `flash` 均跨平台支持。
 2. TuyaOS 和 TuyaOpen 有什么区别？
-    - 此文档上方有描述，按照自己需求选择，目前如果有“视频AI”，或是"商业化"需求选TuyaOS，不然强烈建议TuyaOpen。TuyaOpen生态更加开放。
-3. PID 是什么？
-    - 硬件关联云服务的 Product-ID。与云服务绑定的号码。
-4. 授权码是什么？
-    - 硬件访问云服务的安全鉴权码确保硬件安全。UUID/Key 为一组的码。注意是！TuyaOS 和 TuyaOpen 的授权码不能混用。哪怕能力和服务功能相似，授权互不兼容。
-5. 我可以在 Windows 下开发码？
-    - 可以的, 现在Master 主分支可以体验
-6. 我可以在 MacOS 下开发码？
-    - 可以的, 现在Master 主分支可以体验
-    - 内测功能，可以在Mac x86/ARM 环境下开发但是可能有未发现问题。优先建议Linun 和 Windows.
-7. MacOS M-系列 编译 T5 项目时遇到 `lwip` 编译错误。
-    - Mac gcc版本差异，在T5芯片使用时，需要做如下修改
-    - [已解决 Issue](https://github.com/tuya/TuyaOpen/issues/204)
-
-
-
+本文有详细介绍，请参考上文 **TuyaOpen 与 TuyaOS** 章节。如果您有 **视频 AI 能力集成** 或 **商业化场景** 的需求，建议优先选用 TuyaOS；如为其他场景或需求，则推荐生态更加开放的 TuyaOpen。
+3. 什么是 PID？
+硬件关联云服务的 Product-ID。与云服务绑定的号码。
+4. 什么是授权码？
+硬件访问云服务的安全鉴权码确保硬件安全。UUID/Key 为一组授权码。注意，TuyaOS 和 TuyaOpen 的授权码不能混用。即使能力和服务功能相似，授权也互不兼容。
+5. 是否可以在 Windows 系统下开发？
+可以的，现在 Master 主分支可以体验。
+6. 是否可以在 MacOS 下开发？
+- 可以的，现在 Master 主分支可以体验。
+- 内测功能，可以在 Mac x86/ARM 环境下开发，但是可能有未发现问题。优先建议 Linun 和 Windows。
+7. MacOS M-系列 编译 T5 项目时遇到 lwip 编译错误。
+Mac gcc版本差异，在T5芯片使用时，需要做如下修改
+已解决 Issue
