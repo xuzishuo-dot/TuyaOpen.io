@@ -1,6 +1,6 @@
 ---
 slug: /72h-with-tuyaopen
-title: '72H Adventure X 创业森林活动'
+title: '72H Adventure X 活动'
 authors: [tuya, hsuanhanlai]
 image: /img/home/tuyaopen-logo-social-preview.png
 tags: [TuyaOpen, Contest]
