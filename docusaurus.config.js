@@ -40,6 +40,11 @@ const config = {
     },
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -71,6 +76,25 @@ const config = {
 
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
+    mermaid: {
+      theme: {
+        light: 'neutral',
+        dark: 'forest',
+      },
+      options: {
+        fontFamily: 'Inter, Arial, sans-serif',
+        fontSize: 16,
+        themeVariables: {
+          primaryColor: '#2e7dff',
+          primaryTextColor: '#222',
+          primaryBorderColor: '#2e7dff',
+          lineColor: '#2e7dff',
+          fontFamily: 'Inter, Arial, sans-serif',
+          nodeTextColor: '#222',
+          background: '#f8fafc',
+        },
+      },
+    },
     colorMode: {
       respectPrefersColorScheme: true,
     },
