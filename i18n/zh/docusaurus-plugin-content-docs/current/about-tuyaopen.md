@@ -2,7 +2,7 @@
 title: 关于TuyaOpen
 ---
 
-![TuyaOpen](images/TuyaOpen.png)
+![TuyaOpen](https://images.tuyacn.com/fe-static/docs/img/c128362b-eb25-4512-b5f2-ad14aae2395c.jpg)
 
 ## 概述
 

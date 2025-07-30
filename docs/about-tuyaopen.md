@@ -2,7 +2,7 @@
 title: About TuyaOpen
 ---
 
-![TuyaOpen](images/TuyaOpen.png)
+![TuyaOpen](https://images.tuyacn.com/fe-static/docs/img/c128362b-eb25-4512-b5f2-ad14aae2395c.jpg)
 
 This open-source framework for AIoT development, built on the proven TuyaOS IoT system, delivers cross-platform architecture, component-based design, and enterprise-grade security validated by 100M+ global devices. Its on-device AI inference engine with cloud-edge multimodal AI capabilities enables developers to access compliant Chinese LLMs (DeepSeek/Qwen/Doubao) or integrate global AI services (ChatGPT/Claude/Gemini) through unified API toolkits for text/voice interactions and image/video generation.
 
