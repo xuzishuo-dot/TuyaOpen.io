@@ -124,7 +124,7 @@ const config = {
         },
         {
           to: '/pricing',
-          label: 'Pricing',
+          label: 'Services',
         },
         {
           to: 'blog',
@@ -183,7 +183,7 @@ const config = {
               to: '/docs/quick_start/unboxing',
             },
             {
-              label: 'Pricing',
+              label: 'Service',
               to: '/pricing',
             },
             {

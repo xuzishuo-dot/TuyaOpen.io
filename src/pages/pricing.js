@@ -222,21 +222,21 @@ export default function Pricing() {
 
   return (
     <Layout
-      title={i18n.currentLocale === 'zh' ? '价格' : 'Pricing'}
+      title={i18n.currentLocale === 'zh' ? '服务计划' : 'Services'}
       description={
         i18n.currentLocale === 'zh'
-          ? 'TuyaOpen 价格 - 简单的一次性授权模式，适用于IoT开发'
-          : 'TuyaOpen Pricing - Simple, one-time licensing structure for IoT development'
+          ? 'TuyaOpen 服务计划 - 简单的一次性授权模式，适用于 IoT 开发'
+          : 'TuyaOpen Services - Simple, one-time licensing structure for IoT development'
       }
     >
       <Head>
-        <title>{i18n.currentLocale === 'zh' ? 'TuyaOpen 价格' : 'TuyaOpen Pricing'}</title>
+        <title>{i18n.currentLocale === 'zh' ? 'TuyaOpen 服务计划' : 'TuyaOpen Services'}</title>
         <meta
           name="description"
           content={
             i18n.currentLocale === 'zh'
-              ? 'TuyaOpen 价格 - 简单的一次性授权模式，适用于IoT开发'
-              : 'TuyaOpen Pricing - Simple, one-time licensing structure for IoT development'
+              ? 'TuyaOpen 服务计划 - 简单的一次性授权模式，适用于 IoT 开发'
+              : 'TuyaOpen Services - Simple, one-time licensing structure for IoT development'
           }
         />
       </Head>
@@ -244,7 +244,7 @@ export default function Pricing() {
       <main className={styles.main}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <h1>{i18n.currentLocale === 'zh' ? 'TuyaOpen 价格' : 'TuyaOpen Pricing'}</h1>
+            <h1>{i18n.currentLocale === 'zh' ? 'TuyaOpen 服务计划' : 'TuyaOpen Services'}</h1>
             <p>
               <strong>
                 {i18n.currentLocale === 'zh'

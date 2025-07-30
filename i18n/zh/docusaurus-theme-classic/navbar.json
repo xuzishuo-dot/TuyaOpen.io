@@ -11,9 +11,9 @@
     "message": "文档",
     "description": "Navbar item with label Documentation"
   },
-  "item.label.Pricing": {
-    "message": "价格",
-    "description": "Navbar item with label "
+  "item.label.Service": {
+    "message": "服务",
+    "description": "Navbar item with label Service"
   },
   "item.label.Blog": {
     "message": "博客",
