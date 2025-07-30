@@ -118,9 +118,14 @@ const config = {
         srcDark: 'img/home/tuyaopen-logo-simple-light.png',
       },
       items: [
-        { to: 'docs/about-tuyaopen', label: 'Documentation' },
-
-        // ======Blog========
+        {
+          to: 'docs/about-tuyaopen',
+          label: 'Documentation',
+        },
+        {
+          to: '/pricing',
+          label: 'Pricing',
+        },
         {
           to: 'blog',
           label: 'Blog',
