@@ -123,10 +123,6 @@ const config = {
           label: 'Documentation',
         },
         {
-          to: '/pricing',
-          label: 'Services',
-        },
-        {
           to: 'blog',
           label: 'Blog',
         },
@@ -181,10 +177,6 @@ const config = {
             {
               label: 'Tutorial',
               to: '/docs/quick_start/unboxing',
-            },
-            {
-              label: 'Service',
-              to: '/pricing',
             },
             {
               label: 'Hardware List',

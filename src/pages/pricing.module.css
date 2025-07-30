@@ -103,7 +103,7 @@
 
 .cardButton {
   background: var(--ifm-color-primary);
-  color: var(--ifm-color-primary-contrast);
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   padding: 0.7rem 1.5rem;
@@ -117,8 +117,19 @@
 
 .cardButton:hover {
   background: var(--ifm-color-primary-darker);
-  color: var(--ifm-color-primary-contrast);
+  color: #ffffff;
   text-decoration: none;
+}
+
+/* Light mode specific button styling */
+[data-theme='light'] .cardButton {
+  background: #0070f3;
+  color: #ffffff;
+}
+
+[data-theme='light'] .cardButton:hover {
+  background: #0056b3;
+  color: #ffffff;
 }
 
 .faqSection {
