@@ -123,7 +123,7 @@ const config = {
           label: 'Documentation',
         },
         {
-          to: '/docs/pricing',
+          to: '/pricing',
           label: 'Pricing',
         },
         {
