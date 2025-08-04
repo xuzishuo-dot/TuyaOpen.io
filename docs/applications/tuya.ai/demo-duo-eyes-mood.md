@@ -1,5 +1,5 @@
 ---
-title: Duo-Eyes Mood Robot Application
+title: Duo-Eyes Mood Robot
 ---
 
  [duo_eye_mood](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/duo_eye_mood) is an open-source large-model intelligent chat robot based on tuya.ai. It collects voice through a microphone, performs speech recognition, enables conversation, interaction, and banter, and can display the current emotional state through the dual-eye screens.

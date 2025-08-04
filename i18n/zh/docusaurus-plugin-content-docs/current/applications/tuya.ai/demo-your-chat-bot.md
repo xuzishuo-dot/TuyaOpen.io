@@ -1,5 +1,5 @@
 ---
-title: 聊天机器人应用
+title: 聊天机器人
 ---
 
  [your_chat_bot](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot) 是基于 tuya.ai 开源的大模型智能聊天机器人。通过麦克风采集语音，语音识别，实现对话、互动、调侃，还能通过屏幕看到实时聊天内容。

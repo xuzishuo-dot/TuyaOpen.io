@@ -54,21 +54,39 @@ module.exports = {
     // ------------------------------------------------------------------
     {
       type: 'category',
-      label: 'Application Demo',
+      label: 'Applications',
       collapsed: true,
       items: [
         {
           type: 'category',
-          label: 'AI App Components',
+          label: 'Tuya Cloud',
           collapsed: false,
-          items: ['applications/ai-components/ai-audio-asr-impl'],
+          items: ['applications/tuya_cloud/demo-tuya-iot-light'],
         },
-        // 'applications/application-development-guide',
-        'applications/demo-your-chat-bot',
-        'applications/demo-duo-eyes-mood',
-        'applications/demo-tuya-iot-light',
-        'applications/demo-generic-examples',
+        {
+          type: 'category',
+          label: 'Tuya.AI',
+          collapsed: false,
+          items: [
+            'applications/tuya.ai/application-development-guide',
+            'applications/tuya.ai/demo-your-chat-bot',
+            'applications/tuya.ai/demo-duo-eyes-mood',
+            {
+              type: 'category',
+              label: 'AI App Components',
+              collapsed: false,
+              items: ['applications/tuya.ai/ai-components/ai-audio-asr-impl'],
+            },
+          ],
+        },
       ],
+    },
+    // ------------------------------------------------------------------
+    {
+      type: 'category',
+      label: 'Examples',
+      collapsed: true,
+      items: ['examples/demo-generic-examples'],
     },
     // ------------------------------------------------------------------
     {
