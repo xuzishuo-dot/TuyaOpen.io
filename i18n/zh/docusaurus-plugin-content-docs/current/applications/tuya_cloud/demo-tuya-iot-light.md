@@ -1,5 +1,5 @@
 ---
-title: 涂鸦 IoT 设备连接示例
+title: switch_demo
 ---
 
 # 涂鸦 IoT 设备连接示例

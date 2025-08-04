@@ -1,5 +1,5 @@
 ---
-title: Demo Creating Tuya IoT Connected Device
+title: switch_demo
 ---
 
 # Demo: Creating Tuya IoT Connected Device

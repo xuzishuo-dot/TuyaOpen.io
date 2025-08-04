@@ -1,5 +1,5 @@
 ---
-title: Your Chat Bot Application
+title: Your Chat Bot
 ---
 
  [your_chat_bot](https://github.com/tuya/TuyaOpen/tree/master/apps/tuya.ai/your_chat_bot) is an open-source large-model intelligent chat bot based on tuya.ai. It collects voice through a microphone, performs speech recognition, enables conversation, interaction, and banter, and allows you to see real-time chat content on the screen.

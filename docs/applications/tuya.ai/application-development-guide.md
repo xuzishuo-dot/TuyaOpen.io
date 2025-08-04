@@ -29,7 +29,7 @@ The dedicated authorization code for TuyaOpen can be obtained through the follow
 
 - Method 2: If the current module is not pre-burned with a TuyaOpen authorization code, you can purchase an Open SDK Authorization Code through the https://platform.tuya.com/purchase/index?type=6 page and put 'TUYA_DEVICE_UUID' and 'TUYA_DEVICE_AUTHKEY' in the [apps/tuya_cloud/switch_demo/src/tuya_config.h](./src/tuya_config.h) file Replace the uuid and authkey obtained after successful purchase
 
-![Authorization Code](../images/en/authorization_code.png)
+![Authorization Code](/images/en/authorization_code.png)
 
 ```c
 tuya_iot_license_t license;
