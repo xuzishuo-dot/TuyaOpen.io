@@ -1,10 +1,8 @@
-# AI创客马拉松/AI智客马拉松
-
 ## 100天AI觉醒计划，打造未来AI爆款硬件
 
 **为热AI，敬创新，造未来**
 
-![alt text](image.png)
+![大赛报名咨询群](https://images.tuyacn.com/rms-static/783e0680-71dc-11f0-9f57-5d628208d2a7-1754385217256.jpg?tyName=WechatIMG259.jpg)
 
 ## 一、活动简介 
 
