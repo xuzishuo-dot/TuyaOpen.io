@@ -1,6 +1,6 @@
 ---
 slug: /8-8-online-contest
-title: 'TuyaOpenAI开发者线上黑客'
+title: 'TuyaOpen AI开发者-线上黑客松大赛'
 authors: [tuya]
 image: /img/home/tuyaopen-logo-social-preview.png
 tags: [TuyaOpen, Contest]
