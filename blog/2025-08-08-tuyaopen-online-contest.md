@@ -5,6 +5,9 @@ authors: [tuya]
 image: /img/home/tuyaopen-logo-social-preview.png
 tags: [TuyaOpen, Contest]
 ---
+
+<!-- truncate -->
+
 ## 100天AI觉醒计划，打造未来AI爆款硬件
 
 **为热AI，敬创新，造未来**
