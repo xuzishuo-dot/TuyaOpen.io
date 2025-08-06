@@ -30,5 +30,13 @@
   "item.label.Community Group": {
     "message": "社团",
     "description": "Navbar item with label Community Group"
+  },
+  "announcement.close": {
+    "message": "关闭公告",
+    "description": "Close announcement button aria-label"
+  },
+  "announcement.learnMore": {
+    "message": "了解更多 →",
+    "description": "Learn more link text"
   }
 }
