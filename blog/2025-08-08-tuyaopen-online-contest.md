@@ -1,3 +1,10 @@
+---
+slug: /8-8-online-contest
+title: 'TuyaOpenAI开发者线上黑客'
+authors: [tuya]
+image: /img/home/tuyaopen-logo-social-preview.png
+tags: [TuyaOpen, Contest]
+---
 ## 100天AI觉醒计划，打造未来AI爆款硬件
 
 **为热AI，敬创新，造未来**
@@ -18,7 +25,7 @@ TuyaOpen 是一个面向 AIoT 行业的开源、开放的开发框架，基于�
 
 - 开放报名时间段：2025年8月8日~2025年9月10日
 
-![大赛报名咨询群](https://images.tuyacn.com/rms-static/37198f30-6f89-11f0-9f57-5d628208d2a7-1754129557411.png?tyName=%E6%8A%A5%E5%90%8D%E5%92%A8%E8%AF%A2%E7%BE%A4.png)
+<img src="https://images.tuyacn.com/rms-static/37198f30-6f89-11f0-9f57-5d628208d2a7-1754129557411.png?tyName=%E6%8A%A5%E5%90%8D%E5%92%A8%E8%AF%A2%E7%BE%A4.png" alt="大赛报名咨询群" width="300" />
 
 - 初筛作品提交时间：2025年月9日30日
 
@@ -57,7 +64,7 @@ TuyaOpen 是一个面向 AIoT 行业的开源、开放的开发框架，基于�
 - **视频类**：开发者Demo视频关注“涂鸦开发者”视频号
 - **直播类**：活动期间安排直播8月开发者训练营，关注大赛群动态
 
-![涂鸦开发者视频号](https://images.tuyacn.com/rms-static/b9d2fba0-6f89-11f0-9fb9-e1834df84344-1754129776730.jpeg?tyName=%E5%BC%80%E5%8F%91%E8%80%85%E5%85%AC%E4%BC%97%E5%8F%B7.jpeg)
+<img src="https://images.tuyacn.com/rms-static/b9d2fba0-6f89-11f0-9fb9-e1834df84344-1754129776730.jpeg?tyName=%E5%BC%80%E5%8F%91%E8%80%85%E5%85%AC%E4%BC%97%E5%8F%B7.jpeg" alt="涂鸦开发者视频号" width="300" />
 
 根据提供的学习材料，学习TuyaOpen 基于涂鸦T5模组，DIY自己的硬件
 
@@ -116,21 +123,21 @@ https://tuyaopen.ai/zh/docs/about-tuyaopen
 - 价值5999的空间智能化套装
 - 4000元购物卡
 
-![一等奖奖品](https://images.tuyacn.com/rms-static/b9d4f770-6f89-11f0-9fb9-e1834df84344-1754129776743.png?tyName=%E5%A5%96%E5%93%811.png)
+<img src="https://images.tuyacn.com/rms-static/b9d4f770-6f89-11f0-9fb9-e1834df84344-1754129776743.png?tyName=%E5%A5%96%E5%93%811.png" alt="一等奖奖品" width="300" />
 
 ### 🎁二等奖：共3个作品，每个作品可获得 
 
 - 价值3999多功能 Ai中控
 - 2000元购物卡
 
-![二等奖奖品](https://images.tuyacn.com/rms-static/b9d4a950-6f89-11f0-9fb9-e1834df84344-1754129776741.png?tyName=%E5%A5%96%E5%93%812.png)
+<img src="https://images.tuyacn.com/rms-static/b9d4a950-6f89-11f0-9fb9-e1834df84344-1754129776741.png?tyName=%E5%A5%96%E5%93%812.png" alt="二等奖奖品" width="300" />
 
 ### 🎁三等奖：共 5个作品，每个作品可获得
 
 - 价值299 Wi-Fi AI 玩偶
 - 1000元购物卡 
 
-![三等奖奖品](https://images.tuyacn.com/rms-static/b9d65700-6f89-11f0-9f57-5d628208d2a7-1754129776752.png?tyName=%E5%A5%96%E5%93%813.png)
+<img src="https://images.tuyacn.com/rms-static/b9d65700-6f89-11f0-9f57-5d628208d2a7-1754129776752.png?tyName=%E5%A5%96%E5%93%813.png" alt="三等奖奖品" width="300" />
 
 ### 🎁最佳传播奖：共 10个作品，每个作品可获得 
 
