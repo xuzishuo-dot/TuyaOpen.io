@@ -21,6 +21,15 @@ export default function AnnouncementBar({
     }
   }, []);
 
+  useEffect(() => {
+    // Add/remove body class based on announcement visibility
+    if (isVisible) {
+      document.body.classList.add('announcement-visible');
+    } else {
+      document.body.classList.remove('announcement-visible');
+    }
+  }, [isVisible]);
+
   const handleClose = () => {
     setIsVisible(false);
     localStorage.setItem('announcement-dismissed', 'true');

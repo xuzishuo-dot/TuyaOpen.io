@@ -131,8 +131,14 @@ a.tw-btn {
 /* Ensure navbar doesn't overlap with announcement bar */
 .navbar {
   position: sticky;
-  top: 40px; /* Adjust based on announcement bar height */
+  top: 0; /* Default position when no announcement bar */
   z-index: 999;
+  transition: top 0.3s ease;
+}
+
+/* When announcement bar is present, adjust navbar position */
+body.announcement-visible .navbar {
+  top: 40px; /* Adjust based on announcement bar height */
 }
 
 .navbar .navbar__item {
