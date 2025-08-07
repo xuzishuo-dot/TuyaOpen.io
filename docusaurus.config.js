@@ -185,7 +185,7 @@ const config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/quick_start/unboxing',
+              to: '/docs/quick-start/unboxing',
             },
             {
               label: 'Service',
@@ -206,7 +206,9 @@ const config = {
           items: [
             {
               label: 'Web Serial Tool',
-              to: '/tools',
+              href: 'https://tuyaopen.ai/tools',
+              target: '_blank',
+              rel: 'noopener noreferrer',
             },
           ],
         },

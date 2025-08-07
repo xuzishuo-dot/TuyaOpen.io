@@ -21,6 +21,8 @@ tags: [TuyaOpen, Contest]
 - TuyaOpen 代码仓库：[GitHub](https://github.com/tuya/TuyaOpen)
 - TuyaOpen 文档官网：[文档](https://tuyaopen.ai)
 
+<!-- truncate -->
+
 ## TuyaOpen 与 TuyaOS
 
 TuyaOpen 基于行业领先的 TuyaOS 架构开源，已获得全球 130 万开发者实践验证。TuyaOpen 提供了定义清晰的 API，便于开发支持多种 MCU 的 C/C++ 应用程序，深度简化了外设连接、云连接和安全性等复杂的开发流程。该框架能够大幅提升开发效率，助力您快速构建 AI + IoT 智能产品。
@@ -112,9 +114,9 @@ Tuya Wind IDE 是面向基于 TuyaOS EasyGo 的开发者提供的一站式集成
 ### 涂鸦 T5AI Board 开发板
 ![T5-AI Board Pinout](https://images.tuyacn.com/fe-static/docs/img/6b7ab959-0635-4293-991b-b8dda293614b.jpg)
 
-- 资料文档入口：[T5AI Board Overview](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)
+- 资料文档入口：[T5AI Board Overview](/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)
 - I/O Pin 脚高清下载：[Pinout](/docs/hardware/T5-AI-Board-Pinout-v102.pdf)
-- 如何快速编译项目 + 烧写？：[教程](/docs/quick_start/enviroment-setup)
+- 如何快速编译项目 + 烧写？：[教程](/docs/quick-start/enviroment-setup)
 
 <!-- ### 涂鸦 T5 mini 开发板（第三方社区开发板）
 
@@ -142,7 +144,7 @@ Tuya Wind IDE 是面向基于 TuyaOS EasyGo 的开发者提供的一站式集成
 关于现场可用硬件资源的数量，请参考下文：
 
 ### 开发板
-- [涂鸦 T5-AI 开发板](/zh/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)：15
+- [涂鸦 T5-AI 开发板](/docs/hardware-specific/t5-ai-board/overview-t5-ai-board)：15
 - 涂鸦 T5 mini 开发板：10
 <!-- - 地瓜机器人 RDK X5：20 -->
 
