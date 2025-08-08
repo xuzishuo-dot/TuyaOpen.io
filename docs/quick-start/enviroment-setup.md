@@ -1,10 +1,10 @@
 ---
-title: Environment Setup
+title: Set up Environment
 ---
 
 import { SyncedTabs, SyncedTabItem } from '@site/src/components/SyncedTabs';
 
-# Environment Setup
+# Set up Environment
 
 ## Overview
 
@@ -94,7 +94,7 @@ Before getting started, prepare the following resources:
 
 ## Download and activate TuyaOpen
 
-Download the TuyaOpen repository:``
+Download the TuyaOpen repository:
 
 ```bash
 # Use GitHub
@@ -148,16 +148,15 @@ Run the commands `tos.py version` and `tos.py check` to verify. You will see the
 [INFO]: [cmake] (4.0.2 >= 3.28.0) is ok.
 [INFO]: [make] (4.3 >= 3.0.0) is ok.
 [INFO]: [ninja] (1.11.1 >= 1.6.0) is ok.
-[INFO]: Downloading submoudules ...
+[INFO]: Downloading submodules...
 [INFO]: [do subprocess]: cd /home/huatuo/work/open/TuyaOpen && git submodule update --init
-[INFO]: Download submoudules successfully.
+[INFO]: Download submodules successfully.
 ```
 
 <details>
 <summary>If the check command fails:</summary>
 ```bash
 # Tool validation failed. Please install or upgrade the required tools.
-
 # Submodules download failed. Manually execute the git command.
 git submodule update --init
 ```
@@ -192,7 +191,6 @@ Run the following command to deactivate `tos.py`:
 
 You can run the command `tos.py --help` to view a more detailed description of `tos.py`, or refer to the [tos.py Guide](../tos-tools/tos-guide.md).
 
-Or check [tos.py Tool Usage](../tos-tools/tos-guide.md)
 
 ## FAQs
 
