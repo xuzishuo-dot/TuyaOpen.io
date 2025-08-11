@@ -47,6 +47,12 @@ module.exports = {
           collapsed: false,
           items: ['hardware-specific/t5-ai-board/overview-t5-ai-board'],
         },
+        {
+          type: 'category',
+          label: 'T5-AI Core DevKit',
+          collapsed: false,
+          items: ['hardware-specific/t5-ai-core/overview-t5-ai-core'],
+        },
       ],
     },
     // ------------------------------------------------------------------
