@@ -45,7 +45,7 @@
   },
   "theme.colorToggle.ariaLabel": {
     "message": "切换浅色/暗黑模式（当前为{mode}）",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "暗黑模式",
@@ -457,20 +457,16 @@
     "message": "灵活模块化的软硬件开发"
   },
   "home.features.title": {
-    "message": "好玩",
-    "description": "The title for the Fun feature"
+    "message": "好玩"
   },
   "home.features.desc0": {
-    "message": "支持Tuya AI，可连接至Tuya云、Tuya APP，完美融合Tuya生态能力。",
-    "description": "The description for the Fun feature"
+    "message": "支持Tuya AI，可连接至Tuya云、Tuya APP，完美融合Tuya生态能力。"
   },
   "home.features.easytouse": {
-    "message": "开源生态",
-    "description": "The title for the Open Source Ecosystem feature"
+    "message": "开源生态"
   },
   "home.features.easytouse.desc": {
-    "message": "支持第三方生态如Arduino、PlatformIO。支持C/C++，Python，Lua开发语言。除涂鸦旗舰开发板外，还支持涂鸦T系列，博通、乐鑫、亮牛等诸多开发平台。",
-    "description": "The description for the Open Source Ecosystem feature"
+    "message": "支持第三方生态如Arduino、PlatformIO。支持C/C++，Python，Lua开发语言。除涂鸦旗舰开发板外，还支持涂鸦T系列，博通、乐鑫、亮牛等诸多开发平台。"
   },
   "home.features.easytouse.list.1": {
     "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
@@ -479,23 +475,19 @@
     "message": "随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
   },
   "home.features.flexiblescope": {
-    "message": "专业",
-    "description": "The title for the Professional feature"
+    "message": "专业"
   },
   "home.features.flexiblescope.desc.1": {
-    "message": "商业级代码开源，提供丰富的文档支持，经历全球亿级设备和百万级用户的持续验证。",
-    "description": "The description for the Professional feature"
+    "message": "商业级代码开源，提供丰富的文档支持，经历全球亿级设备和百万级用户的持续验证。"
   },
   "home.features.flexiblescope.desc.2": {
     "message": "home.features.flexiblescope.desc.2 随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里随机文字在这里"
   },
   "home.features.securityfirst": {
-    "message": "安全",
-    "description": "The title for the Security First feature"
+    "message": "安全"
   },
   "home.features.securityfirst.desc": {
-    "message": "集成涂鸦多层安全防护机制，保障设备通信与数据隐私；依托涂鸦全球混合云架构，实现产品合规部署和全球化落地。",
-    "description": "The description for the Security First feature"
+    "message": "集成涂鸦多层安全防护机制，保障设备通信与数据隐私；依托涂鸦全球混合云架构，实现产品合规部署和全球化落地。"
   },
   "home.failuretypes.desc": {
     "message": "TuyaOpen支持行业内主流的开源软硬件生态，开发者可以轻松将项目移植和部署到任意芯片或开发板上。这使得开发者能够快速体验AI技术带来的创新，并加速产品开发周期。"
@@ -524,10 +516,10 @@
   "home.experimental": {
     "message": "实验性功能"
   },
-  "home.tuya.ai.desc":{
+  "home.tuya.ai.desc": {
     "message": "TuyaOpen集成了端侧AI推理引擎，支持涂鸦云智能体中枢，支持端云融合的多模态AI能力。开发者可以无缝调用国内合规的大模型(如DeepSeek、千问、豆包)或灵活对接全球顶尖的AI服务(如ChatGPT、Claude、Gemini)。通过多样化的工具生态，开发者能够实现文字和语音对话、图片生成、视频生成等多种AI功能。"
   },
-  "home.t5.hardware.desc":{
+  "home.t5.hardware.desc": {
     "message": "涂鸦T5 芯片/模组是一款高性能嵌入式Wi-Fi 6 + 蓝牙5.4双模通信模组，内嵌ARMv8-M Star (M33F) 处理器，主频高达 480MHz，专为智能音视频及人机交互场景设计。"
   },
   "home.learnmore": {
@@ -542,16 +534,31 @@
   "home.buildcommunity.help": {
     "message": "遇到任何问题？请随时联系我们寻求帮助。"
   },
-      "announcement.message": {
-      "message": "🏆 加入TuyaOpen AI硬件大赛！100天打造未来AI爆款硬件",
-      "description": "Announcement bar message"
-    },
-    "announcement.learnMore": {
-      "message": "了解更多 →",
-      "description": "Learn more link text"
-    },
-    "announcement.close": {
-      "message": "关闭公告",
-      "description": "Close announcement button aria-label"
-    }
+  "announcement.message": {
+    "message": "🏆 加入TuyaOpen AI硬件大赛！100天打造未来AI爆款硬件",
+    "description": "Announcement bar message"
+  },
+  "announcement.learnMore": {
+    "message": "了解更多 →",
+    "description": "Learn more link text"
+  },
+  "announcement.close": {
+    "message": "关闭公告",
+    "description": "Close announcement button aria-label"
+  },
+  "home.buildcommunity.discord": {
+    "message": "Join our Discord community to chat, ask questions, and connect with other TuyaOpen users."
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  }
 }

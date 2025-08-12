@@ -21,7 +21,7 @@
   },
   "link.item.label.Tutorial": {
     "message": "教程",
-    "description": "The title of the footer links column with title=More in the footer"
+    "description": "The label of footer link with label=Tutorial linking to /docs/quick-start/unboxing"
   },
   "link.title.Acknowledgements": {
     "message": "致谢",
@@ -49,7 +49,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/chaos-mesh/chaos-mesh"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/tuya/TuyaOpen"
   },
   "link.item.label.Slack (#project-chaos-mesh)": {
     "message": "Slack (#project-chaos-mesh)",
@@ -69,18 +69,38 @@
   },
   "link.item.label.Service": {
     "message": "服务",
-    "description": "Navbar item with label Service"
+    "description": "The label of footer link with label=Service linking to /pricing"
   },
   "link.item.label.Hardware List": {
     "message": "硬件支持清单",
-    "description": "Navbar item with Hardware List"
+    "description": "The label of footer link with label=Hardware List linking to /docs/hardware-specific"
   },
   "link.item.label.Tuya T5AI Dev Kit": {
     "message": "Tuya T5AI 开发套件",
-    "description": "Navbar item with label Tuya T5AI Dev Kit"
+    "description": "The label of footer link with label=Tuya T5AI Dev Kit linking to /docs/hardware-specific/t5-ai-board/overview-t5-ai-board"
   },
   "link.item.label.Web Serial Tool": {
     "message": "Web Serial 工具",
-    "description": "Navbar item with label Web Serial Tool"
+    "description": "The label of footer link with label=Web Serial Tool linking to https://tuyaopen.ai/tools"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/cbGrBjx7"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/tuyasmart"
+  },
+  "link.item.label.Youtube": {
+    "message": "Youtube",
+    "description": "The label of footer link with label=Youtube linking to https://www.youtube.com/@tuya2023"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/company/tuya-smart"
+  },
+  "link.item.label.Gitee(Mirror)": {
+    "message": "Gitee(Mirror)",
+    "description": "The label of footer link with label=Gitee(Mirror) linking to https://gitee.com/tuya-open/TuyaOpen"
   }
 }

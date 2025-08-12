@@ -1,6 +1,6 @@
 import { useColorMode } from '@docusaurus/theme-common'
 import { gsap } from 'gsap'
-import React, { useLayoutEffect, useRef } from 'react'
+import React, { useLayoutEffect, useRef, useState } from 'react'
 import Typewriter from 'typewriter-effect/dist/core'
 
 import { useDidMountEffect } from '../utils/hooks'
@@ -29,7 +29,15 @@ export default function Mesh() {
   const pathsGroup = useRef()
   const dotsGroup = useRef()
 
-  const { colorMode } = useColorMode()
+  // Safely get color mode with fallback
+  let colorMode = 'light'
+  try {
+    const colorModeContext = useColorMode()
+    colorMode = colorModeContext.colorMode
+  } catch (error) {
+    // Fallback to light mode if context is not available
+    console.warn('ColorMode context not available, using light mode as fallback')
+  }
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
