@@ -115,20 +115,20 @@ Activate `tos.py`:
     { label: '⌘ Mac', value: 'Mac' },
     { label: '🖥️ Windows', value: 'Windows' },
   ]}
->
-><SyncedTabItem value="Linux">
->    ```bash
->    . ./export.sh
->    ```
->  </SyncedTabItem>
->  <SyncedTabItem value="Mac">
->    ```bash
->    . ./export.sh
->    ```
->  </SyncedTabItem>
->  <SyncedTabItem value="Windows">
->    ```bash
->    .\export.ps1  # # powershell needs to execute `Set-ExecutionPolicy RemoteSigned -Scope LocalMachine` first
+
+<SyncedTabItem value="Linux">
+    ```bash
+    . ./export.sh
+    ```
+  </SyncedTabItem>
+  <SyncedTabItem value="Mac">
+    ```bash
+    . ./export.sh
+    ```
+  </SyncedTabItem>
+  <SyncedTabItem value="Windows">
+    ```bash
+    .\export.ps1  # # powershell needs to execute `Set-ExecutionPolicy RemoteSigned -Scope LocalMachine` first
 
     .\export.bat  # cmd
     ```
