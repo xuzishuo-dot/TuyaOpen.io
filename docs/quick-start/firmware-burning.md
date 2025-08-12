@@ -1,24 +1,19 @@
 ---
-title: Firmware Burning
+title: Flashing and Logging
 ---
 
 # Flashing and Logging
 
-## Flashing
+## Flash firmware
 
-Connect the device to PC, if using virtual machine, please map the serial port to the virtual machine
+Connect the device to your PC. If using a virtual machine, map the serial port to the virtual machine.
 
 :::tip
-For Linux / Mac users, you need to enable serial port usage permissions, execute command
-
-`sudo usermod -aG dialout $USER`
-
-and restart the system
+For Linux and Mac users, run the command `sudo usermod -aG dialout $USER` to grant serial port permissions, and then reboot the system.
 :::
 
-Flash the firmware using command `tos.py flash`, and select the flashing port
+Run the command `tos.py flash` to flash the firmware, and select the correct flashing port. If multiple ports exist, try them sequentially.
 
-If there are multiple serial ports, you can try them one by one
 
 ```bash
 ❯ tos.py flash
@@ -42,19 +37,20 @@ Writing: ━━━━━━━━━━━━━━━━━━━━━━━�
 [INFO]: Flash write success.
 ```
 
+
 <details>
-<summary>If you see `Port [xxx] may be busy` prompt</summary>
+<summary>If a prompt `Port [xxx] may be busy` appears:</summary>
 
-You can wait for about 1 minute and try again
-
-For different virtual machines and serial port chips, the mapping process takes different time
+Wait approximately 1 minute and retry. Mapping duration varies depending on virtual machines and serial chip models.
 </details>
+
 
 ## Logging
 
-View logs using command `tos.py monitor`, and select the log port
+Run the command `tos.py monitor` to view logs and select the correct log port.
 
-If you want to view complete logs, you can manually reset the device after the command
+To capture full logs, manually reset the device after running the command.
+
 
 ```bash
 ❯ tos.py monitor
@@ -71,15 +67,19 @@ Select serial port: 1
 [01-01 00:03:55 ty D][tuya_health.c:75] feed watchdog
 ```
 
-Exit log viewing by pressing `Ctrl+c`, then press Enter
+
+To exit log viewing, press `Ctrl + C` and press the Enter key.
+
 
 ```bash
 ^C[INFO]: Press "Entry" ...
 
 [INFO]: Monitor exit.
 ```
-## Common Issues
 
-1. Flashing fails
 
-    Refer to [Install the corresponding driver.](../tos-tools/tools-tyutool.md#always-fails-during-write-in-the-burning-process)
+## FAQs
+
+### Flashing failed
+
+For more information, see [Install drivers](../tos-tools/tools-tyutool.md#always-fails-during-write-in-the-burning-process).
