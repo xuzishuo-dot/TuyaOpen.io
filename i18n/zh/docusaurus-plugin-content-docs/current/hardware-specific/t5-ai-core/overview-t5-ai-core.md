@@ -1,10 +1,42 @@
 ---
-title: "T5AI-Core 开发套件概述"
+title: "T5AI-Core 概述"
 ---
 
 # **T5AI-CORE** 开发套件
 
 ![T5-AI Core DevKit](/img/hardware-specific/t5-ai-core/t5-core-vector.png)
+
+
+## 软件编译配置
+
+板级配置文件定义了外设驱动、引脚映射、BSP 包以及第三方库等核心功能组件的配置参数。通过使用开发板预配置的板级配置文件，可以显著降低硬件适配和驱动开发的工作量，提高开发效率。
+
+
+:::tip 想要开发新的外设？
+**Config 配置特点：**
+- **用户如需新增外设，可直接在应用层编写驱动。** BSP 驱动主要用于板卡内部固化的外围器件。
+- 不同应用的外设需求可能存在配置差异，需要根据具体需求调整 config 文件
+- 不同应用需求可能需要配置不同的第三方库参数
+- <span style={{color: 'red'}}><strong>建议</strong>以提供的 Config 初始配置文件作为板级配置基础</span>，在此基础上进行二次开发和功能扩展
+:::
+
+#### 怎么使能板级 config? 请参阅：[TOS 工具指南 - 配置选择](/docs/tos-tools/tos-guide#config-choice)
+
+<table class="hw-config-flag-table">
+  <tbody>
+    <tr>
+      <th>编译标志</th>
+      <td><code>TUYA_T5AI_CORE.config</code></td>
+      <td>T5AI-Core + 板载 Mic/Speaker BSP 板卡配置 - <a href="/">🚧 配置文件</a></td>
+    </tr>
+    <tr>
+      <th>BSP驱动源码</th>
+      <td colspan="2"><a href="/">🚧T5AI-Core BSP 驱动源码</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## 概述
 涂鸦 T5AI-Core 开发套件是一款基于 T5-E1 模组的高集成度语音核心开发板。T5-E1 模组由涂鸦智能自主研发，集成了嵌入式 Wi-Fi 与蓝牙功能，适用于多种智能硬件场景。T5AI-Core 开发板板载 1 个麦克风和 1 个扬声器，支持本地语音识别与音频播放，满足语音交互应用需求。
@@ -34,7 +66,7 @@ title: "T5AI-Core 开发套件概述"
 
 ### 设计理念与引脚可用性
 
-T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性。板载仅集成了如`电池供电`、`固件烧录与调试`、`音频输入输出`等核心功能模块，确保开发板**开箱即用，能够满足语音交互等主要应用场景的需求。  
+T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性。板载仅集成了如`电池供电`、`固件烧录与调试`、`音频输入输出`等核心功能模块，确保开发板开箱即用，能够满足语音交互等主要应用场景的需求。  
   
 除上述核心功能外，其余所有功能引脚均通过 44Pin 排针完整引出，大幅提升了硬件的扩展性与可访问性。开发者可根据实际项目需求，灵活连接各类外部传感器、执行器或其他外设，极大地方便了原型开发与功能验证。这种设计不仅保证了开发板结构的简洁高效，也为后续功能拓展和定制开发提供了坚实的硬件基础。对于更多 IO 接口的需求，PCB 板面还预留了焊盘测试点，在保持开发板小巧尺寸的同时，赋予其全面的扩展能力。
 
@@ -57,7 +89,7 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
 #### 电源开关和稳压
 - **电源开关**: 控制主系统电压（VSYS），接收来自 ETA6003 的 5V 输入
 - **LN2220PAR 升压模块**: 将 VSYS 升压至稳定的 5V 电源域，为音频放大器等大功率组件供电
-- **RY3408 3.3V 稳压器**: 将 VSYS 降压至 3.3V 电源域，为 T5-E1 模组和数字电路供电
+- **RY3408 3.3V 稳压器**: 将升压后的 5V 降压至 3.3V 电源域，为 T5-E1 模组和数字电路供电
 
 #### 电源特性
 - 双电源输入：USB 5V 和锂电池 3.7V
@@ -144,12 +176,12 @@ T5-AI Core 的音频系统**默认采用 16KHz 采样率和 16 位采样精度**
 #### T5AI-CORE 开发板
 - 原理图: Coming Soon
 #### T5 MCU 数据手册
-- [T5-E1-IPEX 模块数据手册](https://developer.tuya.com/en/docs/iot/T5-E1-IPEX-Module-Datasheet?id=Kdskxvxe835tq#title-12-Pin%20definition) - T5-E1-IPEX 模块的技术规格和引脚定义
+- [T5-E1 模块数据手册](https://developer.tuya.com/en/docs/iot/T5-E1-Module-Datasheet?id=Kdar6hf0kzmfi) - T5-E1 模块的技术规格和引脚定义
 - [T5 MCU 芯片技术数据手册](https://images.tuyaeu.com/content-platform/hestia/1731549161e5fd8879de6.pdf) - T5 系列的综合技术规格和参考文档
 
 
 ### USB 转串口驱动安装
-T5AI-Board 使用板载 CH343 USB 转串口芯片进行固件烧录和调试。下载适合您操作系统的驱动程序：
+T5AI-CORE 使用板载 CH343 USB 转串口芯片进行固件烧录和调试。下载适合您操作系统的驱动程序：
 
 - [Windows 驱动](https://www.wch-ic.com/downloads/CH343SER_ZIP.html)
 - [Linux 驱动](https://github.com/WCHSoftGroup/ch343ser_linux)
@@ -157,7 +189,7 @@ T5AI-Board 使用板载 CH343 USB 转串口芯片进行固件烧录和调试。�
 
 
 ## 相关技术文档/Demo
-- [T5 入门指南 - (环境搭建+烧录 Demo）](/docs/quick_start/enviroment-setup)
-- [T5 Demo 聊天机器人](/docs/applications/demo-your-chat-bot)
-- [T5 Demo IoT 智能插座/灯](/docs/applications/demo-tuya-iot-light)
-- [T5 Demo WIFI/BT和其他外设](/docs/applications/demo-generic-examples)
+- [T5AI 入门指南 - (环境搭建+烧录 Demo）](/docs/quick-start/enviroment-setup)
+- [T5AI Demo 聊天机器人](/docs/applications/tuya.ai/demo-your-chat-bot)
+- [T5AI Demo IoT 智能插座/灯](/docs/applications/tuya_cloud/demo-tuya-iot-light)
+- [T5AI Demo WIFI/BT和其他外设](/docs/examples/demo-generic-examples)

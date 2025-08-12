@@ -6,7 +6,41 @@ title: Overview T5-AI Devkit
 
 ![T5-AI Board DevKit](https://images.tuyacn.com/fe-static/docs/img/83859360-38f6-42c2-9614-99b47f487775.jpg)
 
-## Overview
+
+
+
+## Software Build Configuration
+
+The board-level configuration file defines parameters for core components such as peripheral drivers, pin mapping, BSP packages, and third-party libraries defines flags. By using the pre-configured board-level configuration file provided with the development board, you can significantly reduce the workload for hardware adaptation and driver development, improving development efficiency.
+
+:::tip Want to develop new peripherals?
+**Config Features:**
+- **If you need to add new peripherals, you can write drivers directly at the application layer.** BSP drivers are mainly for onboard fixed peripherals.
+- Peripheral requirements may vary between applications, so you may need to adjust the config file accordingly.
+- Different application needs may require different third-party library parameters.
+- **It is recommended** to use the initial config file as the **base template for board-level configuration** and extend or modify it as needed for your project.
+:::
+
+#### How to enable the config? See: [TOS Tool Guide - Config Choice](/docs/tos-tools/tos-guide#config-choice)
+
+<table class="hw-config-flag-table">
+  <tbody>
+    <tr>
+      <th>Build Flag</th>
+      <td><code>TUYA_T5AI_BOARD_LCD_3.5.config</code></td>
+      <td>T5AI-Board + 3.5-inch screen BSP board config - <a href="https://github.com/tuya/TuyaOpen/blob/master/apps/tuya.ai/your_chat_bot/config/TUYA_T5AI_BOARD_LCD_3.5.config">Config File</a></td>
+    </tr>
+    <tr>
+      <th>BSP Driver Source</th>
+      <td colspan="2"><a href="https://github.com/tuya/TuyaOpen/tree/master/boards/T5AI/TUYA_T5AI_BOARD">T5AI-Board BSP Driver Source</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+
+## Hardware Overview
 Tuya T5AI-Board is a voice and screen multi-interaction development board based on the T5-E1-IPEX, an embedded Wi-Fi and Bluetooth combo module developed by Tuya Smart. Equipped with 2 microphones and 1 speaker, the development board supports voice recognition and playback, offering voice interaction capabilities.
 
 Through the I/O connector on the development board, you can use an LCD display stack on module to implement the touch screen and camera capture features. You can also design your own LCD screen with various interfaces, including I2C, SPI, 8080, and RGB interfaces. 

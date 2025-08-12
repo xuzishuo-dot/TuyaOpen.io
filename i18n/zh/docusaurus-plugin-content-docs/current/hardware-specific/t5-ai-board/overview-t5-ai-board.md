@@ -1,12 +1,44 @@
 ---
-title: T5AI-Board 开发套件概述
+title: T5AI-Board 概述
 ---
 
 # **T5AI-Board** 开发套件
 
 ![T5-AI Board DevKit](https://images.tuyacn.com/fe-static/docs/img/83859360-38f6-42c2-9614-99b47f487775.jpg)
 
-## 概述
+
+## 软件编译配置
+
+板级配置文件定义了外设驱动、引脚映射、BSP 包以及第三方库等核心功能组件的配置参数。通过使用开发板预配置的板级配置文件，可以显著降低硬件适配和驱动开发的工作量，提高开发效率。
+
+
+:::tip 想要开发新的外设？
+**Config 配置特点：**
+- **用户如需新增外设，可直接在应用层编写驱动。** BSP 驱动主要用于板卡内部固化的外围器件。
+- 不同应用的外设需求可能存在配置差异，需要根据具体需求调整 config 文件
+- 不同应用需求可能需要配置不同的第三方库参数
+- **建议**以初始配置文件作为**板级基础模板**，在此基础上进行二次开发和功能扩展
+:::
+
+#### 怎么使能config? 请参阅：[TOS 工具指南 - 配置选择](/docs/tos-tools/tos-guide#config-choice)
+
+<table class="hw-config-flag-table">
+  <tbody>
+    <tr>
+      <th>编译标志</th>
+      <td><code>TUYA_T5AI_BOARD_LCD_3.5.config</code></td>
+      <td>T5AI-Board + 3.5寸屏幕 BSP 板卡配置 - <a href="https://github.com/tuya/TuyaOpen/blob/master/apps/tuya.ai/your_chat_bot/config/TUYA_T5AI_BOARD_LCD_3.5.config">配置文件</a></td>
+    </tr>
+    <tr>
+      <th>BSP驱动源码</th>
+      <td colspan="2"><a href="https://github.com/tuya/TuyaOpen/tree/master/boards/T5AI/TUYA_T5AI_BOARD">T5AI-Board BSP 驱动源码</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 硬件概述
 涂鸦 T5AI-Board 是一款基于 T5-E1-IPEX 的语音和屏幕多交互开发板，T5-E1-IPEX 是涂鸦智能开发的嵌入式 Wi-Fi 和蓝牙组合模块。该开发板配备 2 个麦克风和 1 个扬声器，支持语音识别和播放，提供语音交互功能。
 
 通过开发板上的 I/O 连接器，您可以使用 LCD 显示堆叠模块来实现触摸屏和摄像头捕获功能。您还可以设计自己的 LCD 屏幕，支持多种接口，包括 I2C、SPI、8080 和 RGB 接口。
