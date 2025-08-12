@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "快速开始",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.Hardware Guides": {
+    "message": "硬件文档",
+    "description": "The label for category Hardware Guides in sidebar docs"
+  },
+  "sidebar.docs.category.T5-AI Board DevKit": {
+    "message": "T5-AI Board DevKit",
+    "description": "The label for category T5-AI Board DevKit in sidebar docs"
+  },
+  "sidebar.docs.category.T5-AI Core DevKit": {
+    "message": "T5-AI Core DevKit",
+    "description": "The label for category T5-AI Core DevKit in sidebar docs"
+  },
+  "sidebar.docs.category.Applications": {
+    "message": "应用示例",
+    "description": "The label for category Applications in sidebar docs"
+  },
+  "sidebar.docs.category.Tuya Cloud": {
+    "message": "涂鸦云",
+    "description": "The label for category Tuya Cloud in sidebar docs"
+  },
+  "sidebar.docs.category.Tuya.AI": {
+    "message": "Tuya.AI",
+    "description": "The label for category Tuya.AI in sidebar docs"
+  },
+  "sidebar.docs.category.AI App Components": {
+    "message": "AI 应用组件",
+    "description": "The label for category AI App Components in sidebar docs"
+  },
+  "sidebar.docs.category.Examples": {
+    "message": "示例",
+    "description": "The label for category Examples in sidebar docs"
+  },
+  "sidebar.docs.category.Peripherals": {
+    "message": "外设驱动",
+    "description": "The label for category Peripherals in sidebar docs"
+  },
+  "sidebar.docs.category.New Project": {
+    "message": "添加新项目",
+    "description": "The label for category New Project in sidebar docs"
+  },
+  "sidebar.docs.category.TKL APIs": {
+    "message": "TKL APIs",
+    "description": "The label for category TKL APIs in sidebar docs"
+  },
+  "sidebar.docs.category.OS APIs": {
+    "message": "OS API",
+    "description": "The label for category OS APIs in sidebar docs"
+  },
+  "sidebar.docs.category.Hardware Interfaces": {
+    "message": "硬件接口 API",
+    "description": "The label for category Hardware Interfaces in sidebar docs"
+  },
+  "sidebar.docs.category.Networking": {
+    "message": "网络 API",
+    "description": "The label for category Networking in sidebar docs"
+  },
+  "sidebar.docs.category.Tos Tools": {
+    "message": "Tos 工具",
+    "description": "The label for category Tos Tools in sidebar docs"
+  },
+  "sidebar.docs.category.Build System": {
+    "message": "构建系统",
+    "description": "The label for category Build System in sidebar docs"
+  },
+  "sidebar.docs.category.Contribute": {
+    "message": "贡献",
+    "description": "The label for category Contribute in sidebar docs"
+  },
+  "sidebar.docs.category.Docs Templates": {
+    "message": "文档模板",
+    "description": "The label for category Docs Templates in sidebar docs"
+  }
+}
