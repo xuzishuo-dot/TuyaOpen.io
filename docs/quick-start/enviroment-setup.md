@@ -115,7 +115,7 @@ Activate `tos.py`:
     { label: '⌘ Mac', value: 'Mac' },
     { label: '🖥️ Windows', value: 'Windows' },
   ]}
-
+>
 <SyncedTabItem value="Linux">
     ```bash
     . ./export.sh
