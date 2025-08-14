@@ -4,7 +4,7 @@ title: "Overview T5AI-CORE Devkit"
 
 # **T5AI-CORE** Development Kit
 
-![T5-AI Core DevKit](/img/hardware-specific/t5-ai-core/t5-core-vector.png)
+![T5-AI Core DevKit](https://images.tuyacn.com/fe-static/docs/img/02037ea4-3282-4c8c-b2ec-c9c1894e8064.png)
 
 ## Software Build Configuration
 
