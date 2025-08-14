@@ -94,6 +94,17 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
   </div>
 
 
+#### 电源开关
+拨动开关作为系统的主电源开关，上游电源来自 `USB` 或`锂电池`的供电。
+
+:::warning
+请确保在进行固件烧录时已打开电源开关。
+:::
+
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/84a7c2b7-020c-4004-aab8-c0cbd6f425a4.png" alt="" width="150" />
+</p>
+
 
 
 #### 电源管理芯片

@@ -89,6 +89,17 @@ Except for these core functions, all other functional pins are fully broken out 
     <img src="https://images.tuyacn.com/fe-static/docs/img/3911e3dd-680f-48d0-a448-f764bec39d67.png" alt="" width="150" />
   </div>
 
+#### Power Switch
+A toggle switch serves as the main power switch for the system, with upstream power supplied from either the `USB` or the `lithium battery`.
+
+:::warning
+Please make sure the power switch is turned on before performing firmware flashing.
+:::
+
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/84a7c2b7-020c-4004-aab8-c0cbd6f425a4.png" alt="" width="150" />
+</p>
+
 #### Power Management IC
 - **ETA6003 Battery Management IC**:
   - Receives 5V from Type-C USB and 3.7V from the battery connector
