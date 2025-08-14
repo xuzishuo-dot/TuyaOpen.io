@@ -45,6 +45,14 @@ title: "T5AI-Core 概述"
 
 本开发板为开发者提供了丰富的硬件接口和完善的语音功能，是 AIoT 语音交互应用开发的理想选择。
 
+<div align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/dd9d442f-bd51-4ce0-bbb5-687058270bff.jpg" alt="" width="500" />
+  <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
+    <img src="https://images.tuyacn.com/fe-static/docs/img/6a1310df-c48c-4c71-b52e-483ba4b49bc1.jpg" alt="" width="250" />
+    <img src="https://images.tuyacn.com/fe-static/docs/img/2475d214-9adf-4aaa-a1fe-67c88b50fbd2.jpg" alt="" width="250" />
+  </div>
+</div>
+
 ---
 ## 开发套件亮点
 - 涂鸦 T5 MCU 模块（Wi-Fi 2.4G + BLE 5.4）
@@ -76,8 +84,17 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
 ### 电源管理系统
 
 #### 电源输入
-- **Type-C USB 2.0 接口**: 提供 5V 主电源输入，同时支持 USB DP/DN 数据通信
+- **Type-C USB 2.0 接口**: 提供 5V 主电源输入，同时支持 USB 双路串口的固件烧写和日志调试
 - **PH2.0 电池连接器**: 支持 3.7V 锂电池供电，实现便携式应用
+
+
+  <div style={{ display: 'flex', justifyContent: 'left', gap: '16px', flexWrap: 'wrap' }}>
+    <img src="https://images.tuyacn.com/fe-static/docs/img/b1f63d5f-80c7-44c6-9cbc-82e97461c6b2.png" alt="" width="150" />
+    <img src="https://images.tuyacn.com/fe-static/docs/img/3911e3dd-680f-48d0-a448-f764bec39d67.png" alt="" width="150" />
+  </div>
+
+
+
 
 #### 电源管理芯片
 - **ETA6003 电池管理芯片**: 
@@ -91,7 +108,7 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
 - **LN2220PAR 升压模块**: 将 VSYS 升压至稳定的 5V 电源域，为音频放大器等大功率组件供电
 - **RY3408 3.3V 稳压器**: 将升压后的 5V 降压至 3.3V 电源域，为 T5-E1 模组和数字电路供电
 
-#### 电源特性
+## 电源特性
 - 双电源输入：USB 5V 和锂电池 3.7V
 - 智能电源管理，支持电池充电和电源切换
 - 多级稳压，提供稳定的 5V 和 3.3V 电源域
@@ -103,11 +120,21 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
 - **容量建议**: 根据应用需求选择合适容量，常见容量为 500mAh~2000mAh。
 - **极性注意**: 连接电池时请严格按照正负极标识接线，避免反接导致设备损坏。
 - **保护电路**: 建议选用带有过充、过放和短路保护功能的锂电池，提升使用安全性。
+
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/9eade1d0-f90d-41ed-b2de-686f3e9a255e.jpg" alt="" width="250" />
+</p>
+
 :::
 
 
-#### 充电指示灯逻辑
+### 充电指示灯逻辑
+
 ETA6003 电池管理芯片负责控制充电指示灯（Charge LED），用于显示当前的充电状态。其工作逻辑如下：
+
+<p align="center">
+<img src="https://images.tuyacn.com/fe-static/docs/img/eed5a4d5-8eba-4d6a-87a3-c641cf0facdd.png" alt="" width="150" />
+</p>
 
 - 当拨动开关置于“On”位置时，Power 指示灯点亮，表示系统已上电。
 - **充电中**：当锂电池正在充电时，Charge LED 会点亮，表示系统处于充电状态。
@@ -118,7 +145,7 @@ ETA6003 电池管理芯片负责控制充电指示灯（Charge LED），用于�
 
 
 
-### 核心处理单元
+## 核心处理单元
 
 #### T5-E1 Wi-Fi+BT 模组
 - **处理器**: ARMv8-M Star（M33F）架构，主频高达 480 MHz
@@ -127,44 +154,96 @@ ETA6003 电池管理芯片负责控制充电指示灯（Charge LED），用于�
 - **供电**: 由 3.3V 电源域供电
 - **功能**: 作为开发板的核心处理单元，负责所有计算、通信和控制系统
 
-### 通信接口
+<p align="center">
+<img src="https://images.tuyacn.com/fe-static/docs/img/28b35dec-a9a0-4543-ba41-b9c3f71a8527.png" alt="" width="250" />
+</p>
+
+## 通信接口
 
 #### USB 串口通信
 - **CP2105 双通道串口芯片**: 
   - 连接 Type-C USB 的 DP/DN 信号线
   - 提供双路 UART 下载/调试功能
   - 支持固件烧录和调试日志输出
+- 驱动安装：[驱动](#usb-转串口驱动安装)。
 
-### 用户交互组件
+## 用户交互组件
 
-#### 用户输入输出
-- **用户 LED（P9）**: 由 T5-E1 模组控制的用户指示灯，连接至 GPIO 引脚 P9
-- **用户按钮（P29）**: 用户输入按钮，连接至 T5-E1 模组的 GPIO 引脚 P29
-- **复位按钮（RST）**: 专用复位按钮，向 T5-E1 模组发送复位信号
+### 用户输入输出
+| 组件         | 引脚    | 功能描述                                   |
+| ------------ | ------- | ------------------------------------------ |
+| 用户 LED     | P9      | 由 T5-E1 模组控制的用户指示灯，连接至 GPIO 引脚 P9 |
+| 用户按钮     | P29     | 用户输入按钮，连接至 T5-E1 模组的 GPIO 引脚 P29   |
+| 复位按钮     | RST     | 专用复位按钮，向 T5-E1 模组发送复位信号         |
+<div style={{ display: "flex", justifyContent: "center", gap: "24px", alignItems: "center" }}>
+  <img src="https://images.tuyacn.com/fe-static/docs/img/2e0043dc-59d8-4900-b5d1-524de845131d.png" alt="" width="250" />
+  <img src="https://images.tuyacn.com/fe-static/docs/img/cd0b54a3-d292-4d74-b91d-c474f51c89c1.png" alt="" width="250" />
+</div>
 
-### 音频系统
+## 音频系统
 #### 音频采样规格
 - **标准采样率**: 16KHz
 - **采样位深**: 16位
 T5-AI Core 的音频系统**默认采用 16KHz 采样率和 16 位采样精度**，适用于语音识别、音频处理等应用场景，兼容主流音频算法和协议。
 
-#### 音频输入
+## 音频输入
+
+T5 模组支持两路模拟麦克风输入，方便音频采集和回采。本开发板的音频输入通道分配如下：
+
+| 通道  | 用途说明           |
+|-------|--------------------|
+| CH1   | 麦克风音频输入     |
+| CH2   | 扬声器回采信号输入（支持打断功能） |
+
 - **板载模拟麦克风**: 集成式麦克风，提供模拟音频输入到 T5-E1 模组
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/e23b3b2c-f268-4a45-8271-2945a32a094d.png" alt="" width="250" />
+</p>
 - **回采电路（Loopback）**: 音频回采电路，用于音频测试和处理，支持 AEC（回声消除）和回声抑制功能，连接至 T5-E1 模组。
 
-#### 音频输出
+## 音频输出
 - **1W 音频放大器**: 
   - 由 5V 电源域供电
   - 接收来自 T5-E1 模组的音频信号
   - 输出放大后的音频到扬声器连接器
-- **PH 2.0mm 扬声器连接器**: 外接扬声器输出接口，支持 4Ω 1W 扬声器
+- **PH 2.0mm 扬声器连接器**: 外接扬声器输出接口，支持 `4Ω 3W` 扬声器
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/ebb095cd-be13-472d-99a0-bc4b0ff15242.png" alt="" width="250" />
+</p>
 
-### 扩展接口
+:::warning 喇叭选型
+- 推荐使用阻抗为 `4Ω`、功率为 `1W`~`3W` 的扬声器。请确保所选扬声器具备良好的回声消除和噪声抑制性能，以满足音频系统的需求。
+:::
 
-#### 44Pin 2.54mm 排针
+## 扩展接口
+
+### 44Pin 2.54mm 排针
 - **电源引脚**: 提供 5V 和 3.3V 电源输出
 - **信号引脚**: 引出 T5-E1 模组的各种信号，包括 GPIO、UART、SPI、I2C 等
 - **功能**: 便于外部电路连接和功能扩展，支持快速原型验证
+
+以下为引脚的复用与功能定义说明：
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/e902e201-77b8-4c83-aa71-1c0dae77cfb3.png" alt="" width="450" />
+</p>
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/683ec5fa-9c4e-401a-b645-e8120628ac03.png" alt="" width="400" />
+</p>
+
+
+
+## USB 主机接口（USB Host 功能扩展）
+T5 模组支持一路 USB Host，可连接多种 USB 设备，如 USB 摄像头、USB 串口（CDC）等，满足丰富的外设扩展需求。
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/f7b6d377-2a65-4e23-b6f3-d2c50cd42168.png" alt="T5 USB Host 接口示意图" width="200" />
+</p>
+
+## 固件下载串口 UART（复用）
+T5 的 UART 引脚与板载串口芯片共用。完成固件烧录后，UART 端口可重新分配为其他设备用途，实现灵活的串口资源管理。
+<p align="center">
+  <img src="https://images.tuyacn.com/fe-static/docs/img/fca1b1a2-e89e-4a85-aa52-b048850843d6.png" alt="T5 UART 接口示意图" width="200" />
+</p>
+
 
 ### 天线系统
 - **板载 2.4GHz Wi-Fi + BLE 天线**: 集成式天线，为 T5-E1 模组提供无线通信支持
@@ -173,8 +252,12 @@ T5-AI Core 的音频系统**默认采用 16KHz 采样率和 16 位采样精度**
 
 ---
 ## 下载资源
-#### T5AI-CORE 开发板
-- 原理图: Coming Soon
+#### T5AI-Core 开发板
+- [T5AI-Core 原理图](/docs/hardware/t5ai-core/T5AI-Core_V101-SCH.pdf) - 完整电路图
+- [T5AI-Core 丝印图（ASM）](/docs/hardware/t5ai-core/T5AI-Core_V101-ASM.pdf) - 提供 T5AI-Core 开发板的详细丝印标识参考
+- [T5AI-Core 3D 结构文件（STEP）](/docs/hardware/t5ai-core/T5AI-Core_V101-3D.step) - 提供 T5AI-Core 开发板的 3D 结构模型，便于结构设计与集成
+
+
 #### T5 MCU 数据手册
 - [T5-E1 模块数据手册](https://developer.tuya.com/en/docs/iot/T5-E1-Module-Datasheet?id=Kdar6hf0kzmfi) - T5-E1 模块的技术规格和引脚定义
 - [T5 MCU 芯片技术数据手册](https://images.tuyaeu.com/content-platform/hestia/1731549161e5fd8879de6.pdf) - T5 系列的综合技术规格和参考文档
