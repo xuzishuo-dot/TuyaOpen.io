@@ -1,5 +1,5 @@
 ---
-title: Overview T5-AI Devkit
+title: Overview T5AI-Board Devkit
 ---
 
 # **T5AI-Board** Development Kit

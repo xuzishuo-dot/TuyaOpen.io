@@ -65,10 +65,12 @@ This development board provides developers with rich hardware interfaces and com
 - Module pin breakout
 - Onboard 2.4 GHz Wi-Fi antenna
 - USB power supply + dual-channel serial chip
+- Board dimensions: 73mm × 29mm × 11mm (without pin header) / 17mm (with pin header)  
+  (Approx. 2.87" × 1.14" × 0.43" / 0.67" with pin header)
 
 ---
 ### Hardware Architecture Diagram
-![T5-AI Core Hardware Diagram](/img/hardware-specific/t5-ai-core/t5ai-core-hardware-diagram-v101.jpg)
+![T5-AI Core Hardware Diagram](https://images.tuyacn.com/fe-static/docs/img/e230929b-39a7-4851-bdb8-d614624a48fc.jpg)
 
 ### Design Philosophy & Pin Availability
 
@@ -82,7 +84,7 @@ Except for these core functions, all other functional pins are fully broken out 
 
 #### Power Input
 - **Type-C USB 2.0 Port**: Provides 5V main power input, and supports USB dual-channel serial for firmware burning and log debugging.
-- **PH2.0 Battery Connector**: Supports 3.7V lithium battery power supply for portable applications.
+- **JST PH 1.25mm Battery Connector**: Supports 3.7V lithium battery power supply for portable applications.
 
   <div style={{ display: 'flex', justifyContent: 'left', gap: '16px', flexWrap: 'wrap' }}>
     <img src="https://images.tuyacn.com/fe-static/docs/img/b1f63d5f-80c7-44c6-9cbc-82e97461c6b2.png" alt="" width="150" />
@@ -207,7 +209,7 @@ The T5 module supports two analog microphone inputs for convenient audio capture
   - Powered by the 5V domain
   - Receives audio signals from the T5-E1 module
   - Outputs amplified audio to the speaker connector
-- **PH 2.0mm Speaker Connector**: External speaker output interface, supports `4Ω 3W` speakers
+- **JST PH 1.25mm Speaker Connector**: External speaker output interface, supports `4Ω 3W` speakers
 <p align="center">
   <img src="https://images.tuyacn.com/fe-static/docs/img/ebb095cd-be13-472d-99a0-bc4b0ff15242.png" alt="" width="250" />
 </p>

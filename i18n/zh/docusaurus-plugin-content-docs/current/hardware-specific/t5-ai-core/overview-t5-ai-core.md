@@ -66,11 +66,12 @@ title: "T5AI-Core 概述"
 - 模块引脚引出
 - 板载 2.4 GHz Wi-Fi 天线
 - USB 供电 + 双路串口芯片
+- 板卡尺寸：73mm × 29mm × 11mm（不含排针）/ 17mm（含排针）
 
 
 ---
 ### 硬件架构图
-![T5-AI Core Hardware Diagram](/img/hardware-specific/t5-ai-core/t5ai-core-hardware-diagram-v101.jpg)
+![T5-AI Core Hardware Diagram](https://images.tuyacn.com/fe-static/docs/img/e230929b-39a7-4851-bdb8-d614624a48fc.jpg)
 
 ### 设计理念与引脚可用性
 
@@ -85,7 +86,7 @@ T5AI-Core 开发板在设计之初，充分兼顾了便携性与开发灵活性�
 
 #### 电源输入
 - **Type-C USB 2.0 接口**: 提供 5V 主电源输入，同时支持 USB 双路串口的固件烧写和日志调试
-- **PH2.0 电池连接器**: 支持 3.7V 锂电池供电，实现便携式应用
+- **JST PH 1.25mm 电池连接器**: 支持 3.7V 锂电池供电，实现便携式应用
 
 
   <div style={{ display: 'flex', justifyContent: 'left', gap: '16px', flexWrap: 'wrap' }}>
@@ -217,7 +218,7 @@ T5 模组支持两路模拟麦克风输入，方便音频采集和回采。本�
   - 由 5V 电源域供电
   - 接收来自 T5-E1 模组的音频信号
   - 输出放大后的音频到扬声器连接器
-- **PH 2.0mm 扬声器连接器**: 外接扬声器输出接口，支持 `4Ω 3W` 扬声器
+- **JST PH 1.25mm 扬声器连接器**: 外接扬声器输出接口，支持 `4Ω 3W` 扬声器
 <p align="center">
   <img src="https://images.tuyacn.com/fe-static/docs/img/ebb095cd-be13-472d-99a0-bc4b0ff15242.png" alt="" width="250" />
 </p>
