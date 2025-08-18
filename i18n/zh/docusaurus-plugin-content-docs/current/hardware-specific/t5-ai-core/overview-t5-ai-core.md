@@ -27,11 +27,11 @@ title: "T5AI-Core 概述"
     <tr>
       <th>编译标志</th>
       <td><code>TUYA_T5AI_CORE.config</code></td>
-      <td>T5AI-Core + 板载 Mic/Speaker BSP 板卡配置 - <a href="/">🚧 配置文件</a></td>
+      <td>T5AI-Core + 板载 Mic/Speaker BSP 板卡配置 - <a href="https://github.com/tuya/TuyaOpen/blob/master/apps/tuya.ai/your_chat_bot/config/TUYA_T5AI_CORE.config">配置文件</a></td>
     </tr>
     <tr>
       <th>BSP驱动源码</th>
-      <td colspan="2"><a href="/">🚧T5AI-Core BSP 驱动源码</a></td>
+      <td colspan="2"><a href="https://github.com/tuya/TuyaOpen/tree/master/boards/T5AI/TUYA_T5AI_CORE">T5AI-Core BSP 驱动源码</a></td>
     </tr>
   </tbody>
 </table>

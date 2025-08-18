@@ -25,11 +25,11 @@ The board-level configuration file defines parameters for core functional compon
     <tr>
       <th>Build Flag</th>
       <td><code>TUYA_T5AI_CORE.config</code></td>
-      <td>T5AI-Core + Onboard Mic/Speaker BSP board configuration - <a href="/">🚧 Config File</a></td>
+      <td>T5AI-Core + Onboard Mic/Speaker BSP board configuration - <a href="https://github.com/tuya/TuyaOpen/blob/master/apps/tuya.ai/your_chat_bot/config/TUYA_T5AI_CORE.config">Config File</a></td>
     </tr>
     <tr>
       <th>BSP Driver Source</th>
-      <td colspan="2"><a href="/">🚧T5AI-Core BSP Driver Source</a></td>
+      <td colspan="2"><a href="https://github.com/tuya/TuyaOpen/tree/master/boards/T5AI/TUYA_T5AI_CORE">T5AI-Core BSP Driver Source</a></td>
     </tr>
   </tbody>
 </table>
